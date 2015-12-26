@@ -3,10 +3,9 @@
 Watch your favorite lctv livestreams and videos on Kodi® (formerly known as XBMC™), see https://kodi.tv/.
 
 
-# FAQ
+# Known issues
 
 * I am having issues with the playback of streams (buffering, dropping, stuttering etc.).
-
 > This add-on does not handle any aspect of the playback of lctv livestreams / videos, it just tells Kodi® what to play.
 
 # Todo
