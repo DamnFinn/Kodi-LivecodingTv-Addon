@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.livecodingtv" version="0.0.1" name="Livecoding.tv"
-provider-name="bamb3rino and contributors">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Livecoding.tv Video Plugin</summary>
-  <description lang="en">Livecoding.tv video plugin for Kodi mediacenter.</description>
-  <disclaimer lang="en">Livestreams and videos are provided by www.livecoding.tv.</disclaimer>
-  <summary lang="de">Livecoding.tv-Video-Plugin</summary>
-  <description lang="de">Livecoding.tv-Video-Plugin für das Kodi Mediacenter.</description>
-</extension>
+<addon id="plugin.video.livecodingtv" version="0.0.1" name="Livecoding.tv" provider-name="bamb3rino and contributors">
+	<requires>
+		<import addon="xbmc.python" version="2.20.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>GNU General Public License, v3</license>
+		<source>https://github.com/bamberino/Kodi-LivecodingTv-Addon</source>
+
+		<summary lang="en">Livecoding.tv Video Plugin</summary>
+		<description lang="en">Livecoding.tv video plugin for Kodi mediacenter.</description>
+		<disclaimer lang="en">Livestreams and videos are provided by www.livecoding.tv.</disclaimer>
+
+		<summary lang="de">Livecoding.tv-Video-Plugin</summary>
+		<description lang="de">Livecoding.tv-Video-Plugin für das Kodi Mediacenter.</description>
+		<disclaimer lang="de">Livestreams und Videos werden von www.livecoding.tv bereitgestellt.</disclaimer>
+	</extension>
 </addon>
