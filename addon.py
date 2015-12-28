@@ -1,57 +1,61 @@
-# -*- coding: utf-8 -*-
-# Module: default
-# Author: Roman V. M.
-# Created on: 28.11.2014
-# License: GPL v.3 https://www.gnu.org/copyleft/gpl.html
-
 import sys
 from urlparse import parse_qsl
 import xbmcaddon, xbmcgui, xbmcplugin
+import simplejson as json
 
 # Get the plugin url in plugin:// notation.
 _url = sys.argv[0]
 # Get the plugin handle as an integer number.
 _handle = int(sys.argv[1])
 
-_addon = xbmcaddon.Addon('plugin.video.livecodingtv')
+_addon = xbmcaddon.Addon()
+_app_shortname = 'LCTV'
 
 # Free sample videos are provided by www.vidsplay.com
 # Here we use a fixed set of properties simply for demonstrating purposes
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some web-site or online service.
-_mainmenu = {_addon.getLocalizedString(10001): [{'name': 'Crab',
-                       'thumb': 'http://www.vidsplay.com/vids/crab.jpg',
-                       'video': 'http://www.vidsplay.com/vids/crab.mp4',
-                       'genre': 'Animals'},
-                      {'name': 'Alligator',
-                       'thumb': 'http://www.vidsplay.com/vids/alligator.jpg',
-                       'video': 'http://www.vidsplay.com/vids/alligator.mp4',
-                       'genre': 'Animals'},
-                      {'name': 'Turtle',
-                       'thumb': 'http://www.vidsplay.com/vids/turtle.jpg',
-                       'video': 'http://www.vidsplay.com/vids/turtle.mp4',
-                       'genre': 'Animals'}
-                      ],
-            _addon.getLocalizedString(10002): [{'name': 'Crab',
-                       'thumb': 'http://www.vidsplay.com/vids/crab.jpg',
-                       'video': 'http://www.vidsplay.com/vids/crab.mp4',
-                       'genre': 'Animals'}],
-            _addon.getLocalizedString(10003): [{'name': 'Crab',
-                       'thumb': 'http://www.vidsplay.com/vids/crab.jpg',
-                       'video': 'http://www.vidsplay.com/vids/crab.mp4',
-                       'genre': 'Animals'}],
-            _addon.getLocalizedString(10009): [{'name': 'Crab',
-                       'thumb': 'http://www.vidsplay.com/vids/crab.jpg',
-                       'video': 'http://www.vidsplay.com/vids/crab.mp4',
-                       'genre': 'Animals'}]}
+_mainmenu = {
+	_addon.getLocalizedString(30010): [
+	{
+		'name': 'Crab',
+		'thumb': 'http://www.vidsplay.com/vids/crab.jpg',
+		'video': 'http://www.vidsplay.com/vids/crab.mp4',
+		'genre': 'Animals'
+	},
+	{
+		'name': 'Alligator',
+		'thumb': 'http://www.vidsplay.com/vids/alligator.jpg',
+		'video': 'http://www.vidsplay.com/vids/alligator.mp4',
+		'genre': 'Animals'
+	}],
+	_addon.getLocalizedString(30011): [
+	{
+		'name': 'Crab',
+		'thumb': 'http://www.vidsplay.com/vids/crab.jpg',
+		'video': 'http://www.vidsplay.com/vids/crab.mp4',
+		'genre': 'Animals'
+	}],
+	_addon.getLocalizedString(30012): [
+	{
+		'name': 'Crab',
+		'thumb': 'http://www.vidsplay.com/vids/crab.jpg',
+		'video': 'http://www.vidsplay.com/vids/crab.mp4',
+		'genre': 'Animals'
+	}],
+	_addon.getLocalizedString(30019): [
+	{
+		'name': 'Crab',
+		'thumb': 'http://www.vidsplay.com/vids/crab.jpg',
+		'video': 'http://www.vidsplay.com/vids/crab.mp4',
+		'genre': 'Animals'
+	}]
+}
 
 
 def get_categories():
     """
     Get the list of video categories.
-    Here you can insert some parsing code that retrieves
-    the list of video categories (e.g. 'Movies', 'TV-shows', 'Documentaries' etc.)
-    from some site or server.
     :return: list
     """
     return _mainmenu.keys()
@@ -172,6 +176,7 @@ def router(paramstring):
     # Parse a URL-encoded paramstring to the dictionary of
     # {<parameter>: <value>} elements
     params = dict(parse_qsl(paramstring))
+
     # Check the parameters passed to the plugin
     if params:
         if params['action'] == 'listing':
@@ -187,6 +192,9 @@ def router(paramstring):
 
 
 if __name__ == '__main__':
-    # Call the router function and pass the plugin call parameters to it.
-    # We use string slicing to trim the leading '?' from the plugin call paramstring
-    router(sys.argv[2][1:])
+	message = 'Starting app %s with: %s %s' % (_app_shortname, sys.argv[0], sys.argv[1])
+	xbmcgui.Dialog().notification(_app_shortname, message, xbmcgui.NOTIFICATION_INFO, 15000)
+	
+	# Call the router function and pass the plugin call parameters to it.
+	# We use string slicing to trim the leading '?' from the plugin call paramstring
+	router(sys.argv[2][1:])
