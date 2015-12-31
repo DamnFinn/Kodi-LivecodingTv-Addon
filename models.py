@@ -1,6 +1,11 @@
 # this is necessary because Livecoding's API does not provide thumbnails right now
-def get_thumbnail(user_name):
+def get_livestream_thumbnail(user_name):
     thumbnail_url = 'https://www.livecoding.tv/video/livestream/%s/thumbnail_250_140/' % (user_name)
+    return thumbnail_url
+
+
+def get_video_thumbnail(slug):
+    thumbnail_url = 'https://www.livecoding.tv/video/video/%s/thumbnail_250_140/' % (slug)
     return thumbnail_url
 
 
@@ -49,5 +54,5 @@ class Video(object):
         self.creation_month = creation_date_split[1]
         self.creation_day = creation_date_split[2]
         self.display_title = '[%s, %s] %s: %s' % (self.coding_category, self.creation_date, self.user_name, self.title)
-        self.thumbnail = get_thumbnail(self.user_name)
+        self.thumbnail = get_video_thumbnail(self.user_name)
         self.viewing_url = self.viewing_urls[0]
