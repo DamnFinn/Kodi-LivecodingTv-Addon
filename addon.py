@@ -9,7 +9,7 @@ _addon_uri = sys.argv[0]
 _addon_handle = int(sys.argv[1])
 
 _addon = xbmcaddon.Addon()
-_app_shortname = 'LCTV'
+_addon_shortname = 'LCTV'
 
 _log = Logger(__name__)
 
@@ -39,7 +39,7 @@ def get_routing_uri(params):
 
 def show_notification_error(message):
 	_log.error(message)
-	xbmcgui.Dialog().notification(_app_shortname, message, xbmcgui.NOTIFICATION_ERROR, 15000)
+	xbmcgui.Dialog().notification(_addon_shortname, message, xbmcgui.NOTIFICATION_ERROR, 15000)
 
 
 def list_mainmenu():

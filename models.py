@@ -1,8 +1,7 @@
-# this is necessary because livecoding.tv does not provide thumbnails right now
+# this is necessary because Livecoding's API does not provide thumbnails right now
 def get_thumbnail(user_name):
     thumbnail_url = 'https://www.livecoding.tv/video/livestream/%s/thumbnail_250_140/' % (user_name)
     return thumbnail_url
-
 
 
 class Livestream(object):
