@@ -1,6 +1,5 @@
 import xbmc, xbmcaddon
 import json
-from operator import attrgetter
 from models import Livestream, Video
 
 
