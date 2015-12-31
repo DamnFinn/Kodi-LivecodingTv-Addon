@@ -1,39 +1,45 @@
 import sys
 from urlparse import parse_qsl
 import xbmcaddon, xbmcgui, xbmcplugin
-import requests
-from classes import Livestream, Logger
-from client import LivecodingTvApp
+#import requests
+from providers import LivestreamDataProvider, VideoDataProvider, Logger
 
-# Get the plugin url in plugin:// notation.
-_plugin_url = sys.argv[0]
-# Get the plugin handle as an integer number.
-_plugin_handle = int(sys.argv[1])
+
+_addon_uri = sys.argv[0]
+_addon_handle = int(sys.argv[1])
 
 _addon = xbmcaddon.Addon()
 _app_shortname = 'LCTV'
 
-_lctv_app = LivecodingTvApp()
-_log = Logger('addon.py')
+_log = Logger(__name__)
 
-_mainmenu = [[30010, 'livestreams']]
+_mainmenu = [
+        [30010, 'livestreams'],
+        [30011, 'videos']
+    ]
+
 _action = 'action'
-_user = 'user'
+_video = 'video'
 
 
-def get_plugin_url(params):
-	url_params = ''
+def get_routing_uri(params):
+	uri_params = ''
 	for param in params:
-		if len(url_params) == 0:
-			url_params = '?'
+		if len(uri_params) == 0:
+			uri_params = '?'
 		else:
-			url_params += '&'
-		url_params += '%s=%s' % (param[0], param[1])
-	requested_plugin_url = '%s%s' % (_plugin_url, url_params)
+			uri_params += '&'
+		uri_params += '%s=%s' % (param[0], param[1])
+	requested_routing_uri = '%s%s' % (_addon_uri, uri_params)
 	# logging
-	message = 'Requested plugin url: ' + requested_plugin_url
+	message = 'Requested plugin uri: ' + requested_routing_uri
 	_log.debug(message)
-	return requested_plugin_url
+	return requested_routing_uri
+
+
+def show_notification_error(message):
+	_log.error(message)
+	xbmcgui.Dialog().notification(_app_shortname, message, xbmcgui.NOTIFICATION_ERROR, 15000)
 
 
 def list_mainmenu():
@@ -52,7 +58,7 @@ def list_mainmenu():
 		#list_item.setInfo('video', {'title': category, 'genre': category})
 		# Create a URL for the plugin recursive callback.
 		# Example: plugin://plugin.video.example/?action=listing&category=Animals
-		url = get_plugin_url([[_action, menu_item[1]]])
+		url = get_routing_uri([[_action, menu_item[1]]])
 		# is_folder = True means that this item opens a sub-list of lower level items.
 		is_folder = True
 		# Add our item to the listing as a 3-element tuple.
@@ -60,28 +66,11 @@ def list_mainmenu():
 	# Add our listing to Kodi.
 	# Large lists and/or slower systems benefit from adding all items at once via addDirectoryItems
 	# instead of adding one by ove via addDirectoryItem.
-	xbmcplugin.addDirectoryItems(_plugin_handle, listing, len(listing))
+	xbmcplugin.addDirectoryItems(_addon_handle, listing, len(listing))
 	# Add a sort method for the virtual folder items (alphabetically, ignore articles)
 	#xbmcplugin.addSortMethod(_handle, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 	# Finish creating a virtual folder.
-	xbmcplugin.endOfDirectory(_plugin_handle)
-
-
-def request_json(url):
-	data = requests.get(url, auth=(_lctv_app.client_id, _lctv_app.client_secret))
-	json = data.json()	
-	_log.debug('Answer to request from %s: %s' % (url, json))
-	return json
-
-
-def get_livestreams():
-	livestreams_json = request_json('https://www.livecoding.tv:443/api/livestreams/onair/')
-	#iteratore through livestreams
-	livestreams = []
-	for livestream_json in livestreams_json['results']:
-		livestream = Livestream(livestream_json)
-		livestreams.append(livestream)
-	return livestreams
+	xbmcplugin.endOfDirectory(_addon_handle)
 
 
 def list_livestreams():
@@ -90,73 +79,96 @@ def list_livestreams():
 	# Create a list for our items.
 	listing = []
 	# Iterate through videos.
-	for livestream in get_livestreams():
-		# Create a list item with a text label and a thumbnail image.
+	for livestream in LivestreamDataProvider().get():
+		# create a list item with a text label and a thumbnail image
 		list_item = xbmcgui.ListItem(label=livestream.display_title, thumbnailImage=livestream.thumbnail)
-		# Set a fanart image for the list item.
 		list_item.setProperty('fanart_image', livestream.thumbnail)
-		# Set additional info for the list item.
-		list_item.setInfo('video', {'title': livestream.title, 'genre': livestream.coding_category})
-		# Set additional graphics (banner, poster, landscape etc.) for the list item.
+		# set additional info for the list item
+		list_item.setInfo('video', {'title': livestream.display_title, 'genre': livestream.coding_category})
 		list_item.setArt({'landscape': livestream.thumbnail})
-		# Set 'IsPlayable' property to 'true'.
-		# This is mandatory for playable items!
 		list_item.setProperty('IsPlayable', 'true')
-		# Create a URL for the plugin recursive callback
-		# Example: plugin://plugin.video.example/?action=play&video=http://www.vidsplay.com/vids/crab.mp4
-		url = get_plugin_url([[_action, _mainmenu[0][1]], [_user, livestream.user_slug]])
-		# Add the list item to a virtual Kodi folder.
+		# create a URL for the plugin recursive callback
+		uri = get_routing_uri([[_action, _mainmenu[0][1]], [_video, livestream.viewing_url]])
+		# add the list item to a virtual Kodi folder.
 		# is_folder = False means that this item won't open any sub-list.
 		is_folder = False
-		# Add our item to the listing as a 3-element tuple.
-		listing.append((url, list_item, is_folder))
-	# Add our listing to Kodi.
+		# add our item to the listing as a 3-element tuple.
+		listing.append((uri, list_item, is_folder))
+	# add our listing to Kodi.
 	# Large lists and/or slower systems benefit from adding all items at once via addDirectoryItems
 	# instead of adding one by ove via addDirectoryItem.
-	xbmcplugin.addDirectoryItems(_plugin_handle, listing, len(listing))
-	# Add a sort method for the virtual folder items (alphabetically, ignore articles)
-	#xbmcplugin.addSortMethod(_handle, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
+	xbmcplugin.addDirectoryItems(_addon_handle, listing, len(listing))
+	# add a sort method for the virtual folder items (alphabetically, ignore articles)
+	xbmcplugin.addSortMethod(_addon_handle, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 	# Finish creating a virtual folder.
-	xbmcplugin.endOfDirectory(_plugin_handle)
+	xbmcplugin.endOfDirectory(_addon_handle)
 
 
-def watch_livestream(user_slug):
-	# Create a playable item with a path to play.
-	#play_item = xbmcgui.ListItem(path=path)
-	# Pass the item to the Kodi player.
-	#xbmcplugin.setResolvedUrl(_handle, True, listitem=play_item)
-	message = 'Livestreams cannot be watched right now'
-	_log.info(message)
+def list_videos():
+	# Get the list of videos in the category.
+	#videos = get_videos(category)
+	# Create a list for our items.
+	listing = []
+	# Iterate through videos.
+	for video in VideoDataProvider().get():
+		# create a list item with a text label and a thumbnail image
+		list_item = xbmcgui.ListItem(label=video.display_title, thumbnailImage=video.thumbnail)
+		list_item.setProperty('fanart_image', video.thumbnail)
+		# set additional info for the list item
+		list_item.setInfo('video', {'title': video.display_title, 'genre': video.coding_category})
+		list_item.setArt({'landscape': video.thumbnail})
+		list_item.setProperty('IsPlayable', 'true')
+		# create a URL for the plugin recursive callback
+		uri = get_routing_uri([[_action, _mainmenu[0][1]], [_video, video.viewing_url]])
+		# add the list item to a virtual Kodi folder.
+		# is_folder = False means that this item won't open any sub-list.
+		is_folder = False
+		# add our item to the listing as a 3-element tuple.
+		listing.append((uri, list_item, is_folder))
+	# add our listing to Kodi.
+	# Large lists and/or slower systems benefit from adding all items at once via addDirectoryItems
+	# instead of adding one by ove via addDirectoryItem.
+	xbmcplugin.addDirectoryItems(_addon_handle, listing, len(listing))
+	# add a sort method for the virtual folder items (alphabetically, ignore articles)
+	#xbmcplugin.addSortMethod(_addon_handle, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
+	# Finish creating a virtual folder.
+	xbmcplugin.endOfDirectory(_addon_handle)
 
-"""
-def show_notification_error(message):
-	_log.error(message)
-	xbmcgui.Dialog().notification(_app_shortname, message, xbmcgui.NOTIFICATION_ERROR, 15000)
-"""
+
+def watch_video(url):
+    message = 'Livestreams cannot be watched right now'
+    _log.info(message)
+    show_notification_error(message)
+    # create a playable item with a path to play.
+    play_item = xbmcgui.ListItem(path=url)
+    # pass the item to the Kodi player.
+    xbmcplugin.setResolvedUrl(_addon_handle, True, listitem=play_item)
+
 
 def router(paramstring):
-	"""
-	Router function that calls other functions depending on the provided paramstring
-	:param paramstring:
-	:return:
-	"""
-	# Parse a URL-encoded paramstring to the dictionary of {<parameter>: <value>} elements
-	params = dict(parse_qsl(paramstring))
-	# Check the parameters passed to the plugin
-	if params:
-		if params[_action] == _mainmenu[0][1]:
-			if _user in params:
-				watch_livestream(params[_user])
-			else:
-				list_livestreams()
-	else:
-		# default, without any parameters
-		list_mainmenu()
+    """
+    Router function that calls other functions depending on the provided paramstring
+    :param paramstring:
+    :return:
+    """
+    # Parse a URL-encoded paramstring to the dictionary of {<parameter>: <value>} elements
+    params = dict(parse_qsl(paramstring))
+    # Check the parameters passed to the plugin
+    if params:
+        if _video in params:
+            watch_video(params[_video])
+        elif params[_action] == _mainmenu[0][1]:
+            list_livestreams()
+        elif params[_action] == _mainmenu[1][1]:
+            list_videos()
+    else:
+        # default, without any parameters
+        list_mainmenu()
 
 
 if __name__ == '__main__':
-	#message = 'Starting app %s' % (_app_shortname)
-	#xbmcgui.Dialog().notification(_app_shortname, message, xbmcgui.NOTIFICATION_INFO, 10000)
-	# Call the router function and pass the plugin call parameters to it.
-	# We use string slicing to trim the leading '?' from the plugin call paramstring
-	router(sys.argv[2][1:])
+    #message = 'Starting app %s' % (_app_shortname)
+    #xbmcgui.Dialog().notification(_app_shortname, message, xbmcgui.NOTIFICATION_INFO, 10000)
+    # Call the router function and pass the plugin call parameters to it.
+    # We use string slicing to trim the leading '?' from the plugin call paramstring
+    router(sys.argv[2][1:])
