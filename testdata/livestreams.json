@@ -1,0 +1,245 @@
+{
+  "count": 14,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/quixote/",
+      "user": "https://www.livecoding.tv/api/users/quixote/",
+      "user__slug": "quixote",
+      "title": "#101a  RH1.6 game dev.  still with Baliverna",
+      "description": "stream time\r\n-22:30h...  UTC+01:00\r\nMaking of the game Rest House\r\nDescription:\r\n“All wrong.” Game consists of five stories that are interconnected with mysterious characters and events. The main character is trying to discover the meaning each of them. He gets sucked in the events that will lead him to the strange places where he meets strange people, fairy tale creatures and landscapes. more info at: \r\n\r\n[markokacanski.com](http://www.markokacanski.com \"markokacanski.com\")\r\n\r\nsupport\r\n![donation](https://www.twitchalerts.com/donate/kachanac \"donate\")\r\n\r\n![patron2](https://www.patreon.com/Quixote?ty=h \"patron2\")",
+      "coding_category": "C-C++",
+      "difficulty": "beginner",
+      "language": "English",
+      "tags": "3d games, c++, game dev, indie game dev, indie games, ue4",
+      "is_live": true,
+      "viewers_live": 1,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/livecodingtv/quixote",
+        "http://eumedia3.livecoding.tv:8080/hls/quixote/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/stephenhuh/",
+      "user": "https://www.livecoding.tv/api/users/stephenhuh/",
+      "user__slug": "stephenhuh",
+      "title": "algorithms?? bfs && dfs",
+      "description": "GOAL: become good.\r\nsee the page live: www.stephenhuh.ngrok.io\r\ncall in to help on Skype: stephenhuh13\r\nOR\r\ncreate a Google Hangout and let's hangout!\r\ntalk.gg/stephenhuh\r\n\r\nLooking for SYSTEM ADMINISTRATORS for feedback and comments! Let me know if you would like to be featured on the stream for a brief interview.\r\n\r\n\r\nCurrently Running Projects:\r\ngrndma.io -> Speed-dial for services and apps.\r\n\r\nsysadmins.io-> System administration as a service.\r\n\r\ngal.io-> Command line for the web.\r\n\r\nUpcoming Streams:\r\n\r\n24 Hour Marathon - sysadmins.io\r\nLet's RLY Learn Javascript -  JS Lessons (Once I'm good enough)",
+      "coding_category": "Express.js",
+      "difficulty": "intermediate",
+      "language": "English",
+      "tags": "expressjs javascript mean nodejs",
+      "is_live": true,
+      "viewers_live": 6,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/livecodingtv/stephenhuh",
+        "http://usmedia2.livecoding.tv:8080/hls/stephenhuh/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/sehe/",
+      "user": "https://www.livecoding.tv/api/users/sehe/",
+      "user__slug": "sehe",
+      "title": "# Answering Boost Questions Daily",
+      "description": "I tend to answer a few semi-challenging C++ questions on http://stackoverflow.com as a finger exercise today.\r\n\r\nMy SO user is (surprise) \"sehe\".\r\n\r\nI figured streaming it would be nice to\r\n\r\n * show you the thought process and plan of attack to solving random, smallish issues (what documentation, what tests, how do we create a SSCCE etc.)\r\n\r\n * help me keep the focus (and not get lost in a chat/youtube/reddit/whatever)",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "tags": "c++ stackoverflow exercise",
+      "is_live": true,
+      "viewers_live": 7,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/livecodingtv/sehe",
+        "http://eumedia3.livecoding.tv:8080/hls/sehe/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/zetitup/",
+      "user": "https://www.livecoding.tv/api/users/zetitup/",
+      "user__slug": "zetitup",
+      "title": "C#/MonoGame - RTS Sketching",
+      "description": "Hi! My name is Andreas, 30, you can also call me Corpse, Zet or ZetItUp which ever fits you. I've been programming on and off since i was 14 and thought that i would try and stream some of it now!\r\n\r\nOn the stream you will mostly see me working on the game Alien Prisoner.\r\nI will do programming and graphics on the stream.\r\n\r\nLatest Alpha Build:\r\nhttps://drive.google.com/file/d/0BxLakwKE55TlUUlfeXBqbjkybkU/view?usp=sharing\r\n\r\nRequires OpenAL:\r\nhttps://www.openal.org/downloads/",
+      "coding_category": "C#-.NET",
+      "difficulty": "intermediate",
+      "language": "English",
+      "tags": "alien alienprisoner prisoner",
+      "is_live": true,
+      "viewers_live": 10,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/livecodingtv/zetitup",
+        "http://eumedia3.livecoding.tv:8080/hls/zetitup/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/legrey/",
+      "user": "https://www.livecoding.tv/api/users/legrey/",
+      "user__slug": "legrey",
+      "title": "Create tchat",
+      "description": "Salutation ! Sur ce stream, je vais développer un **tchat**\r\nLa durée de création est encore approximative.\r\n\r\nVous verrez donc du **HTML5** - **CSS**, **Javascript** / **JQuery**, du **PHP** et du **MySQL.**\r\n\r\nEn premier lieu, je vais m'occuper du design.",
+      "coding_category": "HTML-CSS",
+      "difficulty": "beginner",
+      "language": "French",
+      "tags": "",
+      "is_live": true,
+      "viewers_live": 8,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/livecodingtv/legrey",
+        "http://eumedia3.livecoding.tv:8080/hls/legrey/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/noeldavies/",
+      "user": "https://www.livecoding.tv/api/users/noeldavies/",
+      "user__slug": "noeldavies",
+      "title": "eCommerce Laravel Site",
+      "description": "In these streams I'll be making an eCommerce site using Laravel and various packages.\r\n\r\nAmong the things we'll be using aside from Laravel include:\r\n\r\n- [Laravel-uuid](https://github.com/webpatser/laravel-uuid) for non-enumerable product id's\r\n- [Laravel-Cart](https://github.com/moltin/laravel-cart) for a shopping-cart system\r\n- [Vue.js](http://vuejs.org) as an front-end MVVM framework\r\n- [Behat](http://behat.org) as a BDD Framework\r\n- [phpSpec](http://phpspec.readthedocs.org/en/latest/) as a TDD Framework\r\n- [Agolia](https://www.algolia.com) for cloud-based real time searching\r\n\r\nOS: Linux Mint\r\nVirtual Hypervisor: VMWare Worksation\r\nIDE: Sublime Text 3 (With Material Design Theme)\r\n\r\nAny questions, feel free to ask!",
+      "coding_category": "Laravel",
+      "difficulty": "intermediate",
+      "language": "English",
+      "tags": "",
+      "is_live": true,
+      "viewers_live": 22,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/livecodingtv/noeldavies",
+        "http://eumedia3.livecoding.tv:8080/hls/noeldavies/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/allar/",
+      "user": "https://www.livecoding.tv/api/users/allar/",
+      "user__slug": "allar",
+      "title": "Final Generic Shooter Update Polish Pass",
+      "description": "Yo.",
+      "coding_category": "Unreal Engine",
+      "difficulty": "expert",
+      "language": "English",
+      "tags": "",
+      "is_live": true,
+      "viewers_live": 9,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/livecodingtv/allar",
+        "http://usmedia2.livecoding.tv:8080/hls/allar/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/bobstriker/",
+      "user": "https://www.livecoding.tv/api/users/bobstriker/",
+      "user__slug": "bobstriker",
+      "title": "[GER] OctoAwesome Xmas-Marathon (Replay)",
+      "description": "OctoAwesome ist ein Experiment. Es ist ein Let's Code für Spiele-Entwickler, die mit Tom zusammen ein richtig, richtig cooles Projekt mit unbekanntem Ausgang entwickeln wollen. In täglichen 20 Minuten Videos bauen wir gemeinsam an einem spannenden Projekt. Durch Kommentare, Feedback und sonstigen Vorschlägen lässt sich das Projekt noch im Laufe der Video-Reihe beeinflussen. Schreib deine Meinung und Wünsche in die Video-Kommentare oder hier ins Forum.",
+      "coding_category": "C#-.NET",
+      "difficulty": "intermediate",
+      "language": "German",
+      "tags": "microsoft c# 2d 2d games 3d 2d games monogame minecraft",
+      "is_live": true,
+      "viewers_live": 6,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/livecodingtv/bobstriker",
+        "http://eumedia3.livecoding.tv:8080/hls/bobstriker/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/lyinch/",
+      "user": "https://www.livecoding.tv/api/users/lyinch/",
+      "user__slug": "lyinch",
+      "title": "Learning C++ with Programming Challenges",
+      "description": "I'm learning C++ with programming Challenges from the LIO - Luxembourgish Informatics Olympiad (yes, that is a thing). I'm a beginner in C++ and in competitive coding so feel free to help me out. If you have any questions, don't hesitate to ask them.\r\n\r\nIf you want to learn more about competitive coding, check out:\r\nhttps://www.topcoder.com/\r\nhttps://projecteuler.net/\r\nhttps://uva.onlinejudge.org/\r\nhttps://icpc.baylor.edu/\r\nhttps://www.codechef.com/\r\n...\r\n\r\nOr those books:\r\nProgramming Challenges - The Programming Contest Training Manual\r\nCompetitive Programming 3\r\n\r\nI speak English, German & French so feel free to write in any of those languages!",
+      "coding_category": "C++",
+      "difficulty": "beginner",
+      "language": "English",
+      "tags": "c++ competive programming ",
+      "is_live": true,
+      "viewers_live": 3,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/livecodingtv/lyinch",
+        "http://eumedia3.livecoding.tv:8080/hls/lyinch/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/mmcfarland/",
+      "user": "https://www.livecoding.tv/api/users/mmcfarland/",
+      "user__slug": "mmcfarland",
+      "title": "#nodejs #reactjs codepix.io development",
+      "description": "We're using three technology layers for this project.\r\n\r\n#1 - a nodejs express server compiled from babel, using mocha/chai unit testing and typing with flowType.  \r\n\r\nhttps://github.com/MattMcFarland/codepix-server\r\n\r\n- babel\r\n- mocha\r\n- chai\r\n- express\r\n- eslint\r\n- coveralls\r\n\r\n#2 - client layer\r\n\r\n#3 - application layer\r\n- bundles server client libraries and faces production",
+      "coding_category": "JavaScript",
+      "difficulty": "expert",
+      "language": "English",
+      "tags": "dry, ecmascript 7, jetbrains, microsoft azure, modular, moment.js, react.js, srp, superagent, twitter bootstrap, webstorm",
+      "is_live": true,
+      "viewers_live": 9,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/livecodingtv/mmcfarland",
+        "http://usmedia2.livecoding.tv:8080/hls/mmcfarland/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/sveri/",
+      "user": "https://www.livecoding.tv/api/users/sveri/",
+      "user__slug": "sveri",
+      "title": "playing https://www.stockfighter.io - no mic",
+      "description": "Currently streaming closp web framework.\r\n\r\nClosp is a web framework similar to JHipster but for the clojure / clojurescript stack.\r\n\r\nI am a Senior Software Engineer proficient in several languages and frameworks. I have a diploma in computer science and live to learn. So if you have anything to chat about, just go ahead.",
+      "coding_category": "Others",
+      "difficulty": "intermediate",
+      "language": "English",
+      "tags": "clojure clojurescript closp",
+      "is_live": true,
+      "viewers_live": 4,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/livecodingtv/sveri",
+        "http://eumedia3.livecoding.tv:8080/hls/sveri/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/jegas/",
+      "user": "https://www.livecoding.tv/api/users/jegas/",
+      "user__slug": "jegas",
+      "title": "Pot Luck ;-)   Maybe Chat about Coding!",
+      "description": "Currently working on releasing the Jegas Application Server; its a CRM, a Web-server, Organizer, Project Management tool, and much more. I make sure the interface is decent - but I spend most of my time making sure people can trust this system to run their business, organization, church, whatever. \r\n\r\nYou might find me working with Linux, working on a game, testing play my own game creations, I do a lot of expert level stuff...but I'm no expert!\r\n\r\nWho knows what will be going on... Hope you like it whatever it is!",
+      "coding_category": "Others",
+      "difficulty": "expert",
+      "language": "English",
+      "tags": "#music #pascal #freepascal #lazarus #operating #system #linux #windows #html #javascript",
+      "is_live": true,
+      "viewers_live": 7,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/livecodingtv/jegas",
+        "http://usmedia2.livecoding.tv:8080/hls/jegas/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/dakkra/",
+      "user": "https://www.livecoding.tv/api/users/dakkra/",
+      "user__slug": "dakkra",
+      "title": "Tiled Map Editor",
+      "description": "Dakkra Streams\r\n==================\r\nI love programming and have always been interested in multimedia. Thus, live streaming programming and related activities is a massive win and joy for me!\r\n\r\nI usually program in Java but recent;y have been learning c++, python, ruby, and nodejs to integrate well with other technologies. \r\n\r\nTiled Map Editor\r\n--------------\r\nThis is a practice editor as I explore what possibilities i have for creating environments. Eventually i'll want to import the maps into a game with libGDX as a backend... somehow\r\n\r\nCommunication\r\n------------------\r\nFeel free to chat in the LCTV chat box or to send me a message on Skype! If i'm streaming with my microphone I may even accept Skype calls",
+      "coding_category": "Java",
+      "difficulty": "intermediate",
+      "language": "English",
+      "tags": "arch code-learning ",
+      "is_live": true,
+      "viewers_live": 6,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/livecodingtv/dakkra",
+        "http://usmedia2.livecoding.tv:8080/hls/dakkra/index.m3u8"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/livestreams/thr4nduil/",
+      "user": "https://www.livecoding.tv/api/users/thr4nduil/",
+      "user__slug": "thr4nduil",
+      "title": "WebDev Basics and Courses",
+      "description": "My life is a peace of code that in economical game has crashed, i don't know who is root in it ... thank's to him i have what to eat and where to sleep",
+      "coding_category": "JavaScript",
+      "difficulty": "beginner",
+      "language": "English",
+      "tags": "- ",
+      "is_live": true,
+      "viewers_live": 6,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/livecodingtv/thr4nduil",
+        "http://eumedia3.livecoding.tv:8080/hls/thr4nduil/index.m3u8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://www.livecoding.tv/api/videos/1-2/",
+  "slug": "1-2",
+  "user": "https://www.livecoding.tv/api/users/narcode/",
+  "title": "1,",
+  "description": "`     ________________________________\r\n    !\\__p_a_n_d_a__z_o_o_i_c_i_d_e_/!\\\r\n    !!                             !! \\\r\n    !!       ,,,         ,,,       !!  \\\r\n    !!     ;'   ^;     ;'   ',     !!   \\\r\n    !!     ;    s$$$$$$$s     ;    !!    !\r\n    !!     ,  ss$$$$$$$$$$s  ,'    !!    !\r\n    !!     ;s$$$$$$$$$$$$$$$       !!    !\r\n    !!      $$$$$$$$$$$$$$$$$$     !!    !\r\n    !!     $$$$P''Y$$$Y''W$$$$$    !!    !\r\n    !!     $$$$  *'$$$'*  $$$$$    !!    !\r\n    !!     $$$$  .$$$$$.  $$$$     !!    !\r\n    !!     $$$$$$$$$$$@$$$$$       !!    !\r\n    !!        'Y$$$'*'$$$Y'        !!    /\r\n    !!           '$b.$$'           !!   /\r\n     !!____________________________!!  /\r\n      !/__________________________\\!/\r\n         __\\___________________/__/!_\r\n         !_________________________!/\r\n         ___________________________\r\n       /oooo  oooo  oooo  ooooo   /!\r\n      /ooooooooooooooooooooooooo/ /\r\n     /ooooooooooooooooooooooooo/ /\r\n    /â„—2015__________________/_/\r\n`\r\n\r\nTesting the platform and having fun",
+  "coding_category": "Others",
+  "difficulty": "beginner",
+  "language": "English",
+  "product_type": "other",
+  "creation_time": "2015-10-15T19:43:17.028336Z",
+  "duration": 55,
+  "region": "eu-london",
+  "viewers_overall": 3,
+  "viewing_urls": [
+    "rtmp://eumedia3.livecoding.tv:1935/vod/narcode-1444938137.flv",
+    "http://eumedia3.livecoding.tv:8080/vod/narcode-1444938137.flv"
+  ]
+}

@@ -1,15 +1,17 @@
-# this is necessary because Livecoding's API does not provide thumbnails right now
-def get_livestream_thumbnail(user_name):
-    thumbnail_url = 'https://www.livecoding.tv/video/livestream/%s/thumbnail_250_140/' % (user_name)
-    return thumbnail_url
+# -*- coding: utf-8 -*-
+
+# REMARK: Livecoding's API does not provide thumbnails right now...
 
 
-def get_video_thumbnail(slug):
-    thumbnail_url = 'https://www.livecoding.tv/video/video/%s/thumbnail_250_140/' % (slug)
-    return thumbnail_url
+class MenuItem:
+    def __init__(self, label, routing_action, elements=-1, thumbnail=''):
+        self.label = label
+        self.routing_action = routing_action
+        self.elements = elements
+        self.thumbnail = thumbnail
 
 
-class Livestream(object):
+class Livestream:
     def __init__(self, json):
         self.api_url = json['url']
         self.user_api_url = json['user']
@@ -20,17 +22,20 @@ class Livestream(object):
         self.difficulty = json['difficulty']
         self.streaming_language = json['language']
         self.tags = json['tags']
-        self.is_live = str(json['is_live']).lower() == "true"
+        self.is_live = bool(json['is_live'])
         self.viewers = json['viewers_live']
         self.viewing_urls = json['viewing_urls']
         #additional properties
         self.user_name = self.api_url.split('/')[5]
-        self.display_title = '[%s] %s: %s' % (self.coding_category, self.user_name, self.title)
-        self.thumbnail = get_thumbnail(self.user_name)
-        self.viewing_url = self.viewing_urls[0]
+        self.display_title = '[{c}] {s}: {t}'.format \
+            (c=self.coding_category, s=self.user_name, t=self.title)
+        self.thumbnail = '{p}/video/livestream/{u}/thumbnail_250_140/' \
+            .format(p='https://www.livecoding.tv', u=self.user_name)
+        if len(self.viewing_urls) > 0:
+            self.viewing_url = self.viewing_urls[0]
 
 
-class Video(object):
+class Video:
     def __init__(self, json):
         self.api_url = json['url']
         self.slug = json['slug']
@@ -53,6 +58,10 @@ class Video(object):
         self.creation_year = creation_date_split[0]
         self.creation_month = creation_date_split[1]
         self.creation_day = creation_date_split[2]
-        self.display_title = '[%s, %s] %s: %s' % (self.coding_category, self.creation_date, self.user_name, self.title)
-        self.thumbnail = get_video_thumbnail(self.user_name)
-        self.viewing_url = self.viewing_urls[0]
+        self.display_title = '[{c}, {d}] {s}: {t}'.format \
+            (c=self.coding_category, d=self.creation_date, \
+             s=self.user_name, t=self.title)
+        self.thumbnail = '{p}/video/video/{s}/thumbnail_250_140/' \
+            .format(p='https://www.livecoding.tv', s=self.slug)
+        if len(self.viewing_urls) > 0:
+            self.viewing_url = self.viewing_urls[0]

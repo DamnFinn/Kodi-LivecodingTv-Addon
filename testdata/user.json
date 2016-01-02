@@ -1,0 +1,16 @@
+{
+  "url": "https://www.livecoding.tv/api/users/lyinch/",
+  "username": "lyinch",
+  "slug": "lyinch",
+  "country": "LU",
+  "city": "",
+  "favorite_programming": "PHP",
+  "favorite_ide": "Sublime",
+  "favorite_coding_background_music": "",
+  "favorite_code": "#define TRUE FALSE",
+  "years_programming": 3,
+  "want_learn": [
+    "C-C++"
+  ],
+  "registration_date": "2015-12-08"
+}

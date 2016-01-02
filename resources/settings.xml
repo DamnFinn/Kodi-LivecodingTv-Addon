@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="General">
+        <setting id="max_entries" type="slider" label="30090" default="20" range="5,5,50" option="int" />
+    </category>
+</settings>
