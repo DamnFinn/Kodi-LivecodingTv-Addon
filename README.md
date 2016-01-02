@@ -1,6 +1,6 @@
 # Kodi Livecoding.tv Video Add-on
 
-Watch your favorite lctv livestreams and videos on Kodi® (formerly known as XBMC™), see https://kodi.tv/.
+Watch your favorite Livecoding.tv livestreams and videos on Kodi® (formerly known as XBMC™), see https://kodi.tv/.
 
 
 # Known issues
@@ -19,4 +19,4 @@ Watch your favorite lctv livestreams and videos on Kodi® (formerly known as XBM
 
 # Developers
 
-* Contributions are welcome. :)
+* Contributions to branch master_dev are welcome. :)
