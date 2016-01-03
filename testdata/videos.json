@@ -1,0 +1,1907 @@
+{
+  "count": 58321,
+  "next": "https://www.livecoding.tv/api/videos/?limit=100&offset=100",
+  "previous": null,
+  "results": [
+    {
+      "url": "https://www.livecoding.tv/api/videos/_-_-_-_/",
+      "slug": "_-_-_-_",
+      "user": "https://www.livecoding.tv/api/users/lundev/",
+      "title": "-_-_-_-_-",
+      "description": "Not yet.",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-11-16T21:37:42.548808Z",
+      "duration": 67,
+      "region": "eu-london",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/lundev-1447709788.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/lundev-1447709788.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/051115-intelligent-snes-disassembler-python/",
+      "slug": "051115-intelligent-snes-disassembler-python",
+      "user": "https://www.livecoding.tv/api/users/andreaorru/",
+      "title": "051115 Intelligent SNES disassembler [Python]",
+      "description": "I'm building an intelligent disassembler for Super Nintendo ROMs.\r\nIt follows the execution flow of the program and tries to discover all the code in the ROM.\r\n\r\nThe goal is to extract all the info useful to statically recompile the games to port them on other platforms (i.e. Nintendo DS).",
+      "coding_category": "Python",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-11-06T04:17:59.196863Z",
+      "duration": 4100,
+      "region": "eu-london",
+      "viewers_overall": 16,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/andreaorru-1446779375.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/andreaorru-1446779375.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0611152-intelligent-snes-disassembler/",
+      "slug": "0611152-intelligent-snes-disassembler",
+      "user": "https://www.livecoding.tv/api/users/andreaorru/",
+      "title": "061115/2 Intelligent SNES disassembler",
+      "description": "I'm building an intelligent disassembler for Super Nintendo ROMs.\r\nIt follows the execution flow of the program and tries to discover all the code in the ROM.\r\n\r\nThe goal is to extract all the info useful to statically recompile the games and port them on other platforms (for example Nintendo DS, Playstation).",
+      "coding_category": "Python",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-11-07T00:28:06.750072Z",
+      "duration": 2603,
+      "region": "eu-london",
+      "viewers_overall": 60,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/andreaorru-1446853480.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/andreaorru-1446853480.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/061115-intelligent-snes-disassembler-python/",
+      "slug": "061115-intelligent-snes-disassembler-python",
+      "user": "https://www.livecoding.tv/api/users/andreaorru/",
+      "title": "061115 Intelligent SNES disassembler [Python]",
+      "description": "I'm building an intelligent disassembler for Super Nintendo ROMs.\r\nIt follows the execution flow of the program and tries to discover all the code in the ROM.\r\n\r\nThe goal is to extract all the info useful to statically recompile the games and port them on other platforms (for example Nintendo DS, Playstation).",
+      "coding_category": "Python",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-11-06T23:44:42.117613Z",
+      "duration": 5344,
+      "region": "eu-london",
+      "viewers_overall": 39,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/andreaorru-1446848133.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/andreaorru-1446848133.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game/",
+      "slug": "0x10c-inspired-game",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-04T01:39:24.393494Z",
+      "duration": 3217,
+      "region": "eu-london",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1443919544.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1443919544.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game-10/",
+      "slug": "0x10c-inspired-game-10",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-21T21:54:43.828014Z",
+      "duration": 4197,
+      "region": "eu-london",
+      "viewers_overall": 20,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1445460283.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1445460283.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game-12/",
+      "slug": "0x10c-inspired-game-12",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-23T23:43:27.557746Z",
+      "duration": 6963,
+      "region": "eu-london",
+      "viewers_overall": 55,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1445636842.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1445636842.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game-13/",
+      "slug": "0x10c-inspired-game-13",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-24T01:35:14.899228Z",
+      "duration": 6705,
+      "region": "eu-london",
+      "viewers_overall": 94,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1445643807.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1445643807.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game-14/",
+      "slug": "0x10c-inspired-game-14",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-25T01:52:18.803274Z",
+      "duration": 6975,
+      "region": "eu-london",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1445730960.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1445730960.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game-2/",
+      "slug": "0x10c-inspired-game-2",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-05T22:21:31.217376Z",
+      "duration": 6930,
+      "region": "eu-london",
+      "viewers_overall": 53,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1444076758.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1444076758.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game-3/",
+      "slug": "0x10c-inspired-game-3",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-05T23:51:40.542363Z",
+      "duration": 5407,
+      "region": "eu-london",
+      "viewers_overall": 95,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1444083690.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1444083690.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game-5/",
+      "slug": "0x10c-inspired-game-5",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-06T22:38:39.162209Z",
+      "duration": 3153,
+      "region": "eu-london",
+      "viewers_overall": 21,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1444167962.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1444167962.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game-7/",
+      "slug": "0x10c-inspired-game-7",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-08T23:10:43.859163Z",
+      "duration": 6975,
+      "region": "eu-london",
+      "viewers_overall": 38,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1444338865.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1444338865.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game-8/",
+      "slug": "0x10c-inspired-game-8",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-08T23:33:29.530201Z",
+      "duration": 1362,
+      "region": "eu-london",
+      "viewers_overall": 41,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1444345844.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1444345844.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/0x10c-inspired-game-9/",
+      "slug": "0x10c-inspired-game-9",
+      "user": "https://www.livecoding.tv/api/users/fumanchu/",
+      "title": "0x10c inspired game",
+      "description": "An ambitious part-time project I've been working on for about 3 years, on and off.\r\nIn short, it's a game partly inspired by the now defunct 0x10c game.\r\nDevkit and documentation for the in game computer can be found at https://bitbucket.org/ruifig/g4devkit .\r\nI'm quite happy with the underlying in-game computer tech I've been working on, although I still have some things to finish.\r\nAs soon as I'm done with the bits and pieces that are missing, I'll be experimenting with gameplay.\r\n",
+      "coding_category": "C-C++",
+      "difficulty": "expert",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-10-20T22:18:44.894469Z",
+      "duration": 3913,
+      "region": "eu-london",
+      "viewers_overall": 20,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/fumanchu-1445375609.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/fumanchu-1445375609.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/10/",
+      "slug": "10",
+      "user": "https://www.livecoding.tv/api/users/narcode/",
+      "title": "10,",
+      "description": "`     ________________________________\r\n    !\\__p_a_n_d_a__z_o_o_i_c_i_d_e_/!\\\r\n    !!                             !! \\\r\n    !!       ,,,         ,,,       !!  \\\r\n    !!     ;'   ^;     ;'   ',     !!   \\\r\n    !!     ;    s$$$$$$$s     ;    !!    !\r\n    !!     ,  ss$$$$$$$$$$s  ,'    !!    !\r\n    !!     ;s$$$$$$$$$$$$$$$       !!    !\r\n    !!      $$$$$$$$$$$$$$$$$$     !!    !\r\n    !!     $$$$P''Y$$$Y''W$$$$$    !!    !\r\n    !!     $$$$  *'$$$'*  $$$$$    !!    !\r\n    !!     $$$$  .$$$$$.  $$$$     !!    !\r\n    !!     $$$$$$$$$$$@$$$$$       !!    !\r\n    !!        'Y$$$'*'$$$Y'        !!    /\r\n    !!           '$b.$$'           !!   /\r\n     !!____________________________!!  /\r\n      !/__________________________\\!/\r\n         __\\___________________/__/!_\r\n         !_________________________!/\r\n         ___________________________\r\n       /oooo  oooo  oooo  ooooo   /!\r\n      /ooooooooooooooooooooooooo/ /\r\n     /ooooooooooooooooooooooooo/ /\r\n    /â„—2015__________________/_/\r\n`\r\n\r\nTesting the platform and having fun",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-10-15T19:31:59.319012Z",
+      "duration": 55,
+      "region": "eu-london",
+      "viewers_overall": 16,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/narcode-1444937460.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/narcode-1444937460.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-117/",
+      "slug": "100-117",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-24T15:57:30.835801Z",
+      "duration": 4467,
+      "region": "eu-london",
+      "viewers_overall": 48,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440427379.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440427379.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-118/",
+      "slug": "100-118",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-24T18:53:05.975879Z",
+      "duration": 5357,
+      "region": "eu-london",
+      "viewers_overall": 42,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440437021.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440437021.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-123/",
+      "slug": "100-123",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-25T00:49:13.770832Z",
+      "duration": 8290,
+      "region": "eu-london",
+      "viewers_overall": 24,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440455451.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440455451.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-124/",
+      "slug": "100-124",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-25T01:48:12.963476Z",
+      "duration": 3533,
+      "region": "eu-london",
+      "viewers_overall": 32,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440463757.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440463757.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-125/",
+      "slug": "100-125",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-25T15:13:01.393780Z",
+      "duration": 7805,
+      "region": "eu-london",
+      "viewers_overall": 33,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440507772.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440507772.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-127/",
+      "slug": "100-127",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-25T15:28:29.984197Z",
+      "duration": 913,
+      "region": "eu-london",
+      "viewers_overall": 33,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440515588.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440515588.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-130/",
+      "slug": "100-130",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-25T18:00:31.633343Z",
+      "duration": 7841,
+      "region": "eu-london",
+      "viewers_overall": 43,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440517787.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440517787.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-132/",
+      "slug": "100-132",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-25T20:02:00.404053Z",
+      "duration": 7243,
+      "region": "eu-london",
+      "viewers_overall": 26,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440525669.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440525669.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-134/",
+      "slug": "100-134",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-25T23:13:31.765719Z",
+      "duration": 7805,
+      "region": "eu-london",
+      "viewers_overall": 24,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440536603.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440536603.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-135/",
+      "slug": "100-135",
+      "user": "https://www.livecoding.tv/api/users/odmix/",
+      "title": "#100игрзанеделю Диздок пишем",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы... ",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-26T00:41:08.943173Z",
+      "duration": 6071,
+      "region": "eu-london",
+      "viewers_overall": 27,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/odmix-1440543594.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/odmix-1440543594.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-136/",
+      "slug": "100-136",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-26T01:07:43.153088Z",
+      "duration": 6844,
+      "region": "eu-london",
+      "viewers_overall": 40,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440544411.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440544411.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-141/",
+      "slug": "100-141",
+      "user": "https://www.livecoding.tv/api/users/yarchuk90/",
+      "title": "#100игрзанеделю",
+      "description": "Painting ",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-26T09:24:49.974398Z",
+      "duration": 6782,
+      "region": "eu-london",
+      "viewers_overall": 66,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/yarchuk90-1440574251.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/yarchuk90-1440574251.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-142/",
+      "slug": "100-142",
+      "user": "https://www.livecoding.tv/api/users/yarchuk90/",
+      "title": "#100игрзанеделю",
+      "description": "Painting ",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-26T10:25:15.120480Z",
+      "duration": 3666,
+      "region": "eu-london",
+      "viewers_overall": 91,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/yarchuk90-1440581042.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/yarchuk90-1440581042.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-143/",
+      "slug": "100-143",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-26T14:17:51.531143Z",
+      "duration": 7802,
+      "region": "eu-london",
+      "viewers_overall": 110,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440590864.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440590864.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-145/",
+      "slug": "100-145",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-26T15:41:06.760912Z",
+      "duration": 4988,
+      "region": "eu-london",
+      "viewers_overall": 140,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440598673.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440598673.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-149/",
+      "slug": "100-149",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\nleneron@ukr.net\r\nИгра Crysball https://vk.com/crysball\r\n",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-26T19:21:27.516900Z",
+      "duration": 7804,
+      "region": "eu-london",
+      "viewers_overall": 31,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440609079.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440609079.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-160/",
+      "slug": "100-160",
+      "user": "https://www.livecoding.tv/api/users/krimzdin/",
+      "title": "Дядя Юра #100игрзанеделю",
+      "description": "Разработка игры \"Дядя Юра - спасает принцессу\" в которой я буду показывать своё продвижение в разработке проекта для флешмоба #100игрзанеделю",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-26T22:48:31.540184Z",
+      "duration": 7563,
+      "region": "eu-london",
+      "viewers_overall": 22,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/krimzdin-1440621745.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/krimzdin-1440621745.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-161/",
+      "slug": "100-161",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We create a game for the competion: http://create100games.ru\r\nThis is coding channel. The artist's channel here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал программиста. Художник стримит тут:\r\nhttps://www.livecoding.tv/tetianna\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-26T22:52:43.085431Z",
+      "duration": 7803,
+      "region": "eu-london",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440621755.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440621755.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-164/",
+      "slug": "100-164",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We create a game for the competion: http://create100games.ru\r\nThis is coding channel. The artist's channel here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал программиста. Художник стримит тут:\r\nhttps://www.livecoding.tv/tetianna\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-27T01:02:54.243639Z",
+      "duration": 7802,
+      "region": "eu-london",
+      "viewers_overall": 42,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440629569.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440629569.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-165/",
+      "slug": "100-165",
+      "user": "https://www.livecoding.tv/api/users/odmix/",
+      "title": "#100игрзанеделю Делаем развертку моделей",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы... ",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-27T02:00:25.245714Z",
+      "duration": 5014,
+      "region": "eu-london",
+      "viewers_overall": 27,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/odmix-1440635808.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/odmix-1440635808.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-166/",
+      "slug": "100-166",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-27T02:01:00.191716Z",
+      "duration": 3477,
+      "region": "eu-london",
+      "viewers_overall": 54,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440637380.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440637380.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-170/",
+      "slug": "100-170",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-27T14:41:40.923881Z",
+      "duration": 7803,
+      "region": "eu-london",
+      "viewers_overall": 21,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440678693.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440678693.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-171/",
+      "slug": "100-171",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-27T16:51:48.436155Z",
+      "duration": 7803,
+      "region": "eu-london",
+      "viewers_overall": 33,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440686502.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440686502.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-176/",
+      "slug": "100-176",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-27T21:47:23.030542Z",
+      "duration": 3278,
+      "region": "eu-london",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440708757.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440708757.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-178/",
+      "slug": "100-178",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-27T23:36:46.253183Z",
+      "duration": 6542,
+      "region": "eu-london",
+      "viewers_overall": 27,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440712048.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440712048.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-182/",
+      "slug": "100-182",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-28T14:14:19.094598Z",
+      "duration": 7803,
+      "region": "eu-london",
+      "viewers_overall": 28,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440763441.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440763441.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-183/",
+      "slug": "100-183",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-28T16:24:25.615235Z",
+      "duration": 7803,
+      "region": "eu-london",
+      "viewers_overall": 49,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440771259.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440771259.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-194/",
+      "slug": "100-194",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-29T13:16:57.028098Z",
+      "duration": 6255,
+      "region": "eu-london",
+      "viewers_overall": 22,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440847936.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440847936.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-195/",
+      "slug": "100-195",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-29T15:28:35.170671Z",
+      "duration": 7804,
+      "region": "eu-london",
+      "viewers_overall": 22,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440854234.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440854234.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-196/",
+      "slug": "100-196",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-29T17:39:02.884521Z",
+      "duration": 7822,
+      "region": "eu-london",
+      "viewers_overall": 34,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440862117.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440862117.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-197/",
+      "slug": "100-197",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/tetianna\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-29T18:05:29.216631Z",
+      "duration": 1579,
+      "region": "eu-london",
+      "viewers_overall": 39,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440869947.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440869947.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-199/",
+      "slug": "100-199",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/zimnicky/\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-30T00:33:45.279487Z",
+      "duration": 7831,
+      "region": "eu-london",
+      "viewers_overall": 27,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440886991.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440886991.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-200/",
+      "slug": "100-200",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/zimnicky/\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-30T01:18:40.348081Z",
+      "duration": 2678,
+      "region": "eu-london",
+      "viewers_overall": 31,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440894829.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440894829.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-208/",
+      "slug": "100-208",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/zimnicky/\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-30T14:35:19.488196Z",
+      "duration": 4272,
+      "region": "eu-london",
+      "viewers_overall": 25,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440940964.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440940964.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-209/",
+      "slug": "100-209",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/zimnicky/\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-30T16:16:23.906903Z",
+      "duration": 6009,
+      "region": "eu-london",
+      "viewers_overall": 28,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1440945370.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1440945370.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-217/",
+      "slug": "100-217",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/zimnicky/\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-31T19:52:04.684874Z",
+      "duration": 2398,
+      "region": "eu-london",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1441048318.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1441048318.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-219/",
+      "slug": "100-219",
+      "user": "https://www.livecoding.tv/api/users/tetianna/",
+      "title": "#100игрзанеделю",
+      "description": "Этапы прорисовки игры: от создания персонажа и до прорисовки фонов.\r\nУчастник флешмоба #100игрзанеделю\r\n\r\n[EN] We are creating a game for the competion: http://create100games.ru\r\nThis is a drawing channel. The coder's channel is here: https://www.livecoding.tv/zimnicky/\r\n\r\nYou control two wizards in this game. Wizards are not enough good in magic: they can't conjure fireballs nor teleporters nor even boxes. However, they are too proud for hiking. They use a combination of two artifacts for teleportation: a crystal ball a and magic cup (you need to put the ball to the cup). This pair can teleport our characters, but in the limited distance (to the next level). As a result, you need to combine the artefacts again and again many times. And sometimes it's not really easy to do.\r\n\r\n[RU] Мы пишем игру в рамках флешмоба #100игрзанеделю.\r\nЭто канал  художника. Программист стримит тут:\r\nhttps://www.livecoding.tv/zimnicky/\r\n\r\nВ игре вам предстоит управлять двумя волшебниками. Волшебники они, на самом деле, посредственные: фаерболы не умеют, телепорты не умеют и даже ящики из воздуха создавать не могут. Но имидж поддерживать все равно надо и путешествовать пешком — не дело. Для телепортации они используют связку из двух артефактов: хрустального шара и волшебного кубка (шар нужно положить в кубок). Данная связка телепортирует их в нужную сторону, но только на ограниченное расстояние (на следующией уровень). В результате магам приходится совмещать артефакты снова и снова. И порой сделать это ой как не просто...\r\n\r\nCrysball: https://vk.com/crysball\r\nleneron@ukr.net",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-31T21:15:22.976111Z",
+      "duration": 4504,
+      "region": "eu-london",
+      "viewers_overall": 58,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/tetianna-1441051215.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/tetianna-1441051215.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange/",
+      "slug": "100-days-ui-challange",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThis are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6-syntax Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-09T10:16:35.038038Z",
+      "duration": 1170,
+      "region": "eu-london",
+      "viewers_overall": 4,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449655021.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449655021.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-10/",
+      "slug": "100-days-ui-challange-10",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThese are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6 Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-13T09:23:09.984711Z",
+      "duration": 7219,
+      "region": "eu-london",
+      "viewers_overall": 24,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449991366.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449991366.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-11/",
+      "slug": "100-days-ui-challange-11",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThese are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6 Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-13T09:23:46.659202Z",
+      "duration": 29,
+      "region": "eu-london",
+      "viewers_overall": 24,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449998588.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449998588.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-12/",
+      "slug": "100-days-ui-challange-12",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThese are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6 Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-13T10:18:52.394063Z",
+      "duration": 3289,
+      "region": "eu-london",
+      "viewers_overall": 16,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449998638.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449998638.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-2/",
+      "slug": "100-days-ui-challange-2",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThis are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6-syntax Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-09T10:23:39.672130Z",
+      "duration": 386,
+      "region": "eu-london",
+      "viewers_overall": 8,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449656206.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449656206.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-3/",
+      "slug": "100-days-ui-challange-3",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThis are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6-syntax Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-09T10:32:02.611576Z",
+      "duration": 454,
+      "region": "eu-london",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449656649.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449656649.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-4/",
+      "slug": "100-days-ui-challange-4",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThis are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6-syntax Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-09T11:51:26.911114Z",
+      "duration": 4728,
+      "region": "eu-london",
+      "viewers_overall": 27,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449657133.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449657133.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-5/",
+      "slug": "100-days-ui-challange-5",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThis are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6-syntax Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-09T13:04:32.240022Z",
+      "duration": 4348,
+      "region": "eu-london",
+      "viewers_overall": 21,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449661898.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449661898.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-6/",
+      "slug": "100-days-ui-challange-6",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThis are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6-syntax Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-09T13:04:50.848045Z",
+      "duration": 4367,
+      "region": "eu-london",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449666288.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449666288.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-7/",
+      "slug": "100-days-ui-challange-7",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThis are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6-syntax Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-09T13:08:09.383041Z",
+      "duration": 152,
+      "region": "eu-london",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449666332.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449666332.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-8/",
+      "slug": "100-days-ui-challange-8",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThese are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6 Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-13T07:19:52.920311Z",
+      "duration": 169,
+      "region": "eu-london",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449991019.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449991019.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-days-ui-challange-9/",
+      "slug": "100-days-ui-challange-9",
+      "user": "https://www.livecoding.tv/api/users/arnellebalane/",
+      "title": "100 Days UI Challange",
+      "description": "What is the name of this project?\r\n------------------\r\nThis project is called \"100 Days UI Challenge\"\r\n\r\nWhat will it be used for?\r\n------------------\r\nThese are just my attempts to implement the UI designs by [Nechita Paul Flavius](https://twitter.com/npaulflavius \"Nechita Paul Flavius\") in his 100 Days UI Challenge, as can be found here [http://100daysui.com/#](http://100daysui.com/# \"http://100daysui.com/#\")\r\n\r\nHow many weeks are you already working on it?\r\n------------------\r\nI've still worked on this project for a week, and already implemented 3 out of the 100 designs. They're all currently [here](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhich two main programming languages are you using?\r\n------------------\r\nHTML & CSS (if they count as programming languages), and Javascript\r\n\r\nWhich packages, libraries and APIs are you using?\r\n------------------\r\nI'll be using Jade for templating, Stylus css preprocessing, and a little ES6 Javascript. I will also be using jQuery to make DOM maniupulations easier.\r\n\r\nIs it a fun or commercial project?\r\n------------------\r\nThis is just for fun.\r\n\r\nOn which website can people test it and give feedback?\r\n------------------\r\nAll the implementations will be in [CodePen](http://codepen.io/collection/nGoVkg/ \"100 Days UI Challenge - CodePen\")\r\n\r\nWhere do you need support?\r\n------------------\r\nI dont, for now :)\r\n\r\nAre you looking for team members?\r\n------------------\r\nNope, but you may give this 100 Days UI Challenge a shot yourself :D",
+      "coding_category": "HTML-CSS",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-12-13T07:22:33.731471Z",
+      "duration": 0,
+      "region": "eu-london",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/arnellebalane-1449991349.mp4",
+        "http://eumedia3.livecoding.tv:8080/vod/arnellebalane-1449991349.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-fr-les-algorithmes-en-python/",
+      "slug": "100-fr-les-algorithmes-en-python",
+      "user": "https://www.livecoding.tv/api/users/don1ruill/",
+      "title": "100% FR / LES ALGORITHMES EN PYTHON",
+      "description": "Je vais essayer de faire du python, je suis pas sûre d'être au top. \r\n\r\nJe ne parle que français\r\n\r\nVous pouvez m'appeller sur GOOGUELE don1ruill@gmail.com\r\n\r\nou sur skype dès que j'ai un compte",
+      "coding_category": "Python",
+      "difficulty": "beginner",
+      "language": "French",
+      "product_type": "other",
+      "creation_time": "2015-10-20T18:21:22.291805Z",
+      "duration": 6045,
+      "region": "eu-london",
+      "viewers_overall": 21,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/don1ruill-1445359226.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/don1ruill-1445359226.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-fr-les-algorithmes-en-python-3/",
+      "slug": "100-fr-les-algorithmes-en-python-3",
+      "user": "https://www.livecoding.tv/api/users/don1ruill/",
+      "title": "100% FR / LES ALGORITHMES EN PYTHON",
+      "description": "Je vais essayer de faire du python, je suis pas sûre d'être au top. \r\n\r\nJe ne parle que français\r\n\r\nVous pouvez m'appeller sur GOOGUELE don1ruill@gmail.com\r\n\r\nou sur skype dès que j'ai un compte",
+      "coding_category": "Python",
+      "difficulty": "beginner",
+      "language": "French",
+      "product_type": "other",
+      "creation_time": "2015-10-22T10:33:42.704457Z",
+      "duration": 2468,
+      "region": "eu-london",
+      "viewers_overall": 26,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/don1ruill-1445507545.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/don1ruill-1445507545.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-fr-les-algorithmes-en-python-6/",
+      "slug": "100-fr-les-algorithmes-en-python-6",
+      "user": "https://www.livecoding.tv/api/users/don1ruill/",
+      "title": "100% FR / LES ALGORITHMES EN PYTHON",
+      "description": "Je vais essayer de faire du python, je suis pas sûre d'être au top. \r\n\r\nJe ne parle que français\r\n\r\nVous pouvez m'appeller sur GOOGUELE don1ruill@gmail.com\r\n\r\nou sur skype dès que j'ai un compte",
+      "coding_category": "Python",
+      "difficulty": "beginner",
+      "language": "French",
+      "product_type": "other",
+      "creation_time": "2015-11-19T09:37:37.508512Z",
+      "duration": 6,
+      "region": "eu-london",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/don1ruill-1447925840.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/don1ruill-1447925840.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-modeling/",
+      "slug": "100-modeling",
+      "user": "https://www.livecoding.tv/api/users/odmix/",
+      "title": "#100игрзанеделю Modeling ",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы... ",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-25T17:37:22.973092Z",
+      "duration": 1427,
+      "region": "eu-london",
+      "viewers_overall": 55,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/odmix-1440522809.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/odmix-1440522809.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-modeling-3/",
+      "slug": "100-modeling-3",
+      "user": "https://www.livecoding.tv/api/users/odmix/",
+      "title": "#100игрзанеделю Modeling ",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы... ",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-25T19:33:26.403547Z",
+      "duration": 5530,
+      "region": "eu-london",
+      "viewers_overall": 32,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/odmix-1440525672.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/odmix-1440525672.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-modeling-4/",
+      "slug": "100-modeling-4",
+      "user": "https://www.livecoding.tv/api/users/odmix/",
+      "title": "#100игрзанеделю Modeling ",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы... ",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-25T20:01:59.901841Z",
+      "duration": 1694,
+      "region": "eu-london",
+      "viewers_overall": 24,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/odmix-1440531218.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/odmix-1440531218.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-riggingandanimation-10/",
+      "slug": "100-riggingandanimation-10",
+      "user": "https://www.livecoding.tv/api/users/isnarm/",
+      "title": "#100ИгрЗаНеделю RiggingAndAnimation",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы...",
+      "coding_category": "C#-.NET",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-30T13:07:38.557666Z",
+      "duration": 11378,
+      "region": "eu-london",
+      "viewers_overall": 43,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/isnarm-1440928668.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/isnarm-1440928668.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-riggingandanimation-12/",
+      "slug": "100-riggingandanimation-12",
+      "user": "https://www.livecoding.tv/api/users/isnarm/",
+      "title": "#100ИгрЗаНеделю RiggingAndAnimation",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы...",
+      "coding_category": "C#-.NET",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-09-02T15:36:01.501464Z",
+      "duration": 12664,
+      "region": "eu-london",
+      "viewers_overall": 43,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/isnarm-1441195483.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/isnarm-1441195483.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-riggingandanimation-5/",
+      "slug": "100-riggingandanimation-5",
+      "user": "https://www.livecoding.tv/api/users/isnarm/",
+      "title": "#100ИгрЗаНеделю RiggingAndAnimation",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы...",
+      "coding_category": "C#-.NET",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-28T20:26:46.908836Z",
+      "duration": 14406,
+      "region": "eu-london",
+      "viewers_overall": 38,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/isnarm-1440779188.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/isnarm-1440779188.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-riggingandanimation-9/",
+      "slug": "100-riggingandanimation-9",
+      "user": "https://www.livecoding.tv/api/users/isnarm/",
+      "title": "#100ИгрЗаНеделю RiggingAndAnimation",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы...",
+      "coding_category": "C#-.NET",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-30T09:55:17.831144Z",
+      "duration": 6383,
+      "region": "eu-london",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/isnarm-1440922117.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/isnarm-1440922117.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-the-tram-5/",
+      "slug": "100-the-tram-5",
+      "user": "https://www.livecoding.tv/api/users/syjgin/",
+      "title": "#100игрзанеделю The Tram",
+      "description": "В этой игре вы будете работать кондуктором в трамвае. Но не в простом, а в путешествующем между мирами трамвае. На остановках заходят самые непредсказуемые существа, однако ваша задача проста - собрать плату за проезд. А ещё выжить самому, помочь доехать до цели тем, кто оплатил дорогу, и выкинуть тех, кто занял не своё место\r\n\r\nГрафики пока нет, поэтому наделал заглушек в гимпе и сейчас пилю спавнер",
+      "coding_category": "C#-.NET",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "game",
+      "creation_time": "2015-08-28T10:11:39.638775Z",
+      "duration": 6970,
+      "region": "eu-london",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/syjgin-1440749724.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/syjgin-1440749724.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-unreal-engine-4-4/",
+      "slug": "100-unreal-engine-4-4",
+      "user": "https://www.livecoding.tv/api/users/odmix/",
+      "title": "#100игрзанеделю Unreal Engine 4 ",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы... ",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-28T01:41:55.659526Z",
+      "duration": 6975,
+      "region": "eu-london",
+      "viewers_overall": 28,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/odmix-1440719062.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/odmix-1440719062.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/100-unreal-engine-4-5/",
+      "slug": "100-unreal-engine-4-5",
+      "user": "https://www.livecoding.tv/api/users/odmix/",
+      "title": "#100игрзанеделю Unreal Engine 4 ",
+      "description": "Описание проекта: На Земле произошел природный катаклизм. Низверглись метеориты, изверглись вулканы, движение тектонических плит до неузнаваемости. Некоторые континенты погрузились под воду, воздух не пригоден для дыхания, в океанах погибло 90% видов, а на земле 70%. Но некоторые государства успели соорудить техносферы, которые являются спасением от враждебной внешней среды для человека. Усиленно начала развиваться робототехника, которая позволила собирать необходимы ресурсы снаружи, но даже в такой патовой ситуации нехватки ресурсов некоторые техносферы пытаются заполучить остатки территории себе и подчинить другие оплоты цивилизации себе. Вы являетесь избранным представителем своего маленького государства. Вам предстоит управлять всеми структурами в техносфере, а так же построить сильнейший отряд роботов, что бы никто не посмел на вас напасть и не уничтожить людей. Но не нападете ли вы... ",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-28T03:21:14.273387Z",
+      "duration": 6031,
+      "region": "eu-london",
+      "viewers_overall": 38,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/odmix-1440726039.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/odmix-1440726039.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/102-live-android-study-from-the-beginning-7/",
+      "slug": "102-live-android-study-from-the-beginning-7",
+      "user": "https://www.livecoding.tv/api/users/yeoul/",
+      "title": "102 live - Android Study from the beginning",
+      "description": "Beginner's live streaming. I have to make android application for my school lab. So I must study Android.",
+      "coding_category": "Android",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-09-01T12:46:55.950349Z",
+      "duration": 5925,
+      "region": "eu-london",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/yeoul-1441105113.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/yeoul-1441105113.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/102-live-conscience-introspection-app/",
+      "slug": "102-live-conscience-introspection-app",
+      "user": "https://www.livecoding.tv/api/users/yeoul/",
+      "title": "102 live - Conscience Introspection  App",
+      "description": "Beginner's live streaming. I have to make android application for my school lab. So I must study Android.",
+      "coding_category": "Android",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-19T06:30:43.522895Z",
+      "duration": 6897,
+      "region": "eu-london",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/yeoul-1439958942.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/yeoul-1439958942.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/102-live-conscience-introspection-app-12/",
+      "slug": "102-live-conscience-introspection-app-12",
+      "user": "https://www.livecoding.tv/api/users/yeoul/",
+      "title": "102 live - Conscience Introspection  App",
+      "description": "Beginner's live streaming. I have to make android application for my school lab. So I must study Android.",
+      "coding_category": "Android",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-20T10:07:04.137888Z",
+      "duration": 4994,
+      "region": "eu-london",
+      "viewers_overall": 24,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/yeoul-1440060213.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/yeoul-1440060213.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/102-live-conscience-introspection-app-13/",
+      "slug": "102-live-conscience-introspection-app-13",
+      "user": "https://www.livecoding.tv/api/users/yeoul/",
+      "title": "102 live - Conscience Introspection  App",
+      "description": "Beginner's live streaming. I have to make android application for my school lab. So I must study Android.",
+      "coding_category": "Android",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-08-20T13:42:58.648819Z",
+      "duration": 5834,
+      "region": "eu-london",
+      "viewers_overall": 43,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/yeoul-1440072337.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/yeoul-1440072337.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/10-hour-code-binge-4/",
+      "slug": "10-hour-code-binge-4",
+      "user": "https://www.livecoding.tv/api/users/dann/",
+      "title": "10 Hour Code Binge",
+      "description": "If you see me working in Laravel:\r\n \r\n- Project is for a user to send an advertiser-sponsored message to another person, where the proceeds go to charity. It breaks a lot.\r\n\r\nYou may see me jump from Laravel (PHP), Ruby on Rails, Ember and Java. \r\n\r\nCurrently implementing the frontend of the Laravel project that my co-partner on the project coded.\r\n\r\nI'll be dabbling in a bit of everything. Some things I'll have no idea what I'm doing others, well, we'll see if I still have any idea.\r\n\r\nI need to finish going through the Ember docs to grasp that MVC.\r\nI'm also learning Ruby on Rails, for a project that users both Ember and Ruby.\r\n\r\nI have to re-acquaint myself with Java for a potential job. And some tough algorithm questions.\r\n\r\nI also have a client who we'll be delivering a Laravel/PHP project.",
+      "coding_category": "PHP",
+      "difficulty": "intermediate",
+      "language": "English",
+      "product_type": "website",
+      "creation_time": "2015-08-13T07:37:23.702214Z",
+      "duration": 2666,
+      "region": "us-stlouis",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dann-1439448774.flv",
+        "http://usmedia2.livecoding.tv:8080/vod/dann-1439448774.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/11/",
+      "slug": "11",
+      "user": "https://www.livecoding.tv/api/users/narcode/",
+      "title": "11,",
+      "description": "`     ________________________________\r\n    !\\__p_a_n_d_a__z_o_o_i_c_i_d_e_/!\\\r\n    !!                             !! \\\r\n    !!       ,,,         ,,,       !!  \\\r\n    !!     ;'   ^;     ;'   ',     !!   \\\r\n    !!     ;    s$$$$$$$s     ;    !!    !\r\n    !!     ,  ss$$$$$$$$$$s  ,'    !!    !\r\n    !!     ;s$$$$$$$$$$$$$$$       !!    !\r\n    !!      $$$$$$$$$$$$$$$$$$     !!    !\r\n    !!     $$$$P''Y$$$Y''W$$$$$    !!    !\r\n    !!     $$$$  *'$$$'*  $$$$$    !!    !\r\n    !!     $$$$  .$$$$$.  $$$$     !!    !\r\n    !!     $$$$$$$$$$$@$$$$$       !!    !\r\n    !!        'Y$$$'*'$$$Y'        !!    /\r\n    !!           '$b.$$'           !!   /\r\n     !!____________________________!!  /\r\n      !/__________________________\\!/\r\n         __\\___________________/__/!_\r\n         !_________________________!/\r\n         ___________________________\r\n       /oooo  oooo  oooo  ooooo   /!\r\n      /ooooooooooooooooooooooooo/ /\r\n     /ooooooooooooooooooooooooo/ /\r\n    /â„—2015__________________/_/\r\n`\r\n\r\nTesting the platform and having fun",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-10-15T19:30:36.689709Z",
+      "duration": 28,
+      "region": "eu-london",
+      "viewers_overall": 3,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/narcode-1444937405.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/narcode-1444937405.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/11112015-android-coding-pt1/",
+      "slug": "11112015-android-coding-pt1",
+      "user": "https://www.livecoding.tv/api/users/truegff/",
+      "title": "11.11.2015 - android coding pt.1",
+      "description": "Making online shop listing app for android.",
+      "coding_category": "Android",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-11-10T23:49:00.403504Z",
+      "duration": 5435,
+      "region": "eu-london",
+      "viewers_overall": 31,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/truegff-1447193884.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/truegff-1447193884.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/11112015-android-coding-pt2/",
+      "slug": "11112015-android-coding-pt2",
+      "user": "https://www.livecoding.tv/api/users/truegff/",
+      "title": "11.11.2015 - android coding pt.2",
+      "description": "Making online shop listing app for android.",
+      "coding_category": "Android",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-11-11T01:44:40.526986Z",
+      "duration": 6396,
+      "region": "eu-london",
+      "viewers_overall": 14,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/truegff-1447199875.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/truegff-1447199875.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/11112015-android-coding-pt3/",
+      "slug": "11112015-android-coding-pt3",
+      "user": "https://www.livecoding.tv/api/users/truegff/",
+      "title": "11.11.2015 - android coding pt.3",
+      "description": "Making online shop listing app for android.",
+      "coding_category": "Android",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "app",
+      "creation_time": "2015-11-11T02:09:26.244023Z",
+      "duration": 1482,
+      "region": "eu-london",
+      "viewers_overall": 23,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/truegff-1447206280.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/truegff-1447206280.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/11-2/",
+      "slug": "11-2",
+      "user": "https://www.livecoding.tv/api/users/sunsetkite/",
+      "title": "1+1= ?",
+      "description": "_**\r\nHey. My name is Dondre Latchman. \r\n\r\nI also stream on twitch:http://www.twitch.tv/sunsetkite/profile.",
+      "coding_category": "HTML-CSS",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-11-29T21:37:11.990933Z",
+      "duration": 3901,
+      "region": "us-stlouis",
+      "viewers_overall": 32,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/sunsetkite-1448829128.flv",
+        "http://usmedia2.livecoding.tv:8080/vod/sunsetkite-1448829128.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12/",
+      "slug": "12",
+      "user": "https://www.livecoding.tv/api/users/narcode/",
+      "title": "12,",
+      "description": "`     ________________________________\r\n    !\\__p_a_n_d_a__z_o_o_i_c_i_d_e_/!\\\r\n    !!                             !! \\\r\n    !!       ,,,         ,,,       !!  \\\r\n    !!     ;'   ^;     ;'   ',     !!   \\\r\n    !!     ;    s$$$$$$$s     ;    !!    !\r\n    !!     ,  ss$$$$$$$$$$s  ,'    !!    !\r\n    !!     ;s$$$$$$$$$$$$$$$       !!    !\r\n    !!      $$$$$$$$$$$$$$$$$$     !!    !\r\n    !!     $$$$P''Y$$$Y''W$$$$$    !!    !\r\n    !!     $$$$  *'$$$'*  $$$$$    !!    !\r\n    !!     $$$$  .$$$$$.  $$$$     !!    !\r\n    !!     $$$$$$$$$$$@$$$$$       !!    !\r\n    !!        'Y$$$'*'$$$Y'        !!    /\r\n    !!           '$b.$$'           !!   /\r\n     !!____________________________!!  /\r\n      !/__________________________\\!/\r\n         __\\___________________/__/!_\r\n         !_________________________!/\r\n         ___________________________\r\n       /oooo  oooo  oooo  ooooo   /!\r\n      /ooooooooooooooooooooooooo/ /\r\n     /ooooooooooooooooooooooooo/ /\r\n    /â„—2015__________________/_/\r\n`\r\n\r\nTesting the platform and having fun",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-10-15T19:29:46.159124Z",
+      "duration": 65,
+      "region": "eu-london",
+      "viewers_overall": 4,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/narcode-1444937316.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/narcode-1444937316.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/1-2/",
+      "slug": "1-2",
+      "user": "https://www.livecoding.tv/api/users/narcode/",
+      "title": "1,",
+      "description": "`     ________________________________\r\n    !\\__p_a_n_d_a__z_o_o_i_c_i_d_e_/!\\\r\n    !!                             !! \\\r\n    !!       ,,,         ,,,       !!  \\\r\n    !!     ;'   ^;     ;'   ',     !!   \\\r\n    !!     ;    s$$$$$$$s     ;    !!    !\r\n    !!     ,  ss$$$$$$$$$$s  ,'    !!    !\r\n    !!     ;s$$$$$$$$$$$$$$$       !!    !\r\n    !!      $$$$$$$$$$$$$$$$$$     !!    !\r\n    !!     $$$$P''Y$$$Y''W$$$$$    !!    !\r\n    !!     $$$$  *'$$$'*  $$$$$    !!    !\r\n    !!     $$$$  .$$$$$.  $$$$     !!    !\r\n    !!     $$$$$$$$$$$@$$$$$       !!    !\r\n    !!        'Y$$$'*'$$$Y'        !!    /\r\n    !!           '$b.$$'           !!   /\r\n     !!____________________________!!  /\r\n      !/__________________________\\!/\r\n         __\\___________________/__/!_\r\n         !_________________________!/\r\n         ___________________________\r\n       /oooo  oooo  oooo  ooooo   /!\r\n      /ooooooooooooooooooooooooo/ /\r\n     /ooooooooooooooooooooooooo/ /\r\n    /â„—2015__________________/_/\r\n`\r\n\r\nTesting the platform and having fun",
+      "coding_category": "Others",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-10-15T19:43:17.028336Z",
+      "duration": 55,
+      "region": "eu-london",
+      "viewers_overall": 3,
+      "viewing_urls": [
+        "rtmp://eumedia3.livecoding.tv:1935/vod/narcode-1444938137.flv",
+        "http://eumedia3.livecoding.tv:8080/vod/narcode-1444938137.flv"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12-month-calendar-with-java/",
+      "slug": "12-month-calendar-with-java",
+      "user": "https://www.livecoding.tv/api/users/dell44223/",
+      "title": "12 Month Calendar with Java",
+      "description": "I am a college student with three Semesters of C++/C/Java Coding. That Said I still have a lot to learn!\r\n\r\nThe Stream:\r\nMe coding stuff, usually simple stuff in one of the above languages.",
+      "coding_category": "Java",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-12-03T16:24:34.478652Z",
+      "duration": 747,
+      "region": "us-stlouis",
+      "viewers_overall": 1,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dell44223-1449159111.mp4",
+        "http://usmedia2.livecoding.tv:8080/vod/dell44223-1449159111.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12-month-calendar-with-java-10/",
+      "slug": "12-month-calendar-with-java-10",
+      "user": "https://www.livecoding.tv/api/users/dell44223/",
+      "title": "12 Month Calendar with Java",
+      "description": "I am a college student with three Semesters of C++/C/Java Coding. That Said I still have a lot to learn!\r\n\r\nThe Stream:\r\nMe coding stuff, usually simple stuff in one of the above languages.",
+      "coding_category": "Java",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-12-03T18:30:32.812665Z",
+      "duration": 5266,
+      "region": "us-stlouis",
+      "viewers_overall": 62,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dell44223-1449162163.mp4",
+        "http://usmedia2.livecoding.tv:8080/vod/dell44223-1449162163.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12-month-calendar-with-java-11/",
+      "slug": "12-month-calendar-with-java-11",
+      "user": "https://www.livecoding.tv/api/users/dell44223/",
+      "title": "12 Month Calendar with Java",
+      "description": "I am a college student with three Semesters of C++/C/Java Coding. That Said I still have a lot to learn!\r\n\r\nThe Stream:\r\nMe coding stuff, usually simple stuff in one of the above languages.",
+      "coding_category": "Java",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-12-03T19:04:59.990554Z",
+      "duration": 873,
+      "region": "us-stlouis",
+      "viewers_overall": 5,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dell44223-1449168599.mp4",
+        "http://usmedia2.livecoding.tv:8080/vod/dell44223-1449168599.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12-month-calendar-with-java-12/",
+      "slug": "12-month-calendar-with-java-12",
+      "user": "https://www.livecoding.tv/api/users/dell44223/",
+      "title": "12 Month Calendar with Java",
+      "description": "I am a college student with three Semesters of C++/C/Java Coding. That Said I still have a lot to learn!\r\n\r\nThe Stream:\r\nMe coding stuff, usually simple stuff in one of the above languages.",
+      "coding_category": "Java",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-12-03T19:49:35.628192Z",
+      "duration": 2615,
+      "region": "us-stlouis",
+      "viewers_overall": 12,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dell44223-1449169515.mp4",
+        "http://usmedia2.livecoding.tv:8080/vod/dell44223-1449169515.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12-month-calendar-with-java-13/",
+      "slug": "12-month-calendar-with-java-13",
+      "user": "https://www.livecoding.tv/api/users/dell44223/",
+      "title": "12 Month Calendar with Java",
+      "description": "I am a college student with three Semesters of C++/C/Java Coding. That Said I still have a lot to learn!\r\n\r\nThe Stream:\r\nMe coding stuff, usually simple stuff in one of the above languages.",
+      "coding_category": "Java",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-12-03T20:03:27.017856Z",
+      "duration": 810,
+      "region": "us-stlouis",
+      "viewers_overall": 4,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dell44223-1449172191.mp4",
+        "http://usmedia2.livecoding.tv:8080/vod/dell44223-1449172191.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12-month-calendar-with-java-14/",
+      "slug": "12-month-calendar-with-java-14",
+      "user": "https://www.livecoding.tv/api/users/dell44223/",
+      "title": "12 Month Calendar with Java",
+      "description": "I am a college student with three Semesters of C++/C/Java Coding. That Said I still have a lot to learn!\r\n\r\nThe Stream:\r\nMe coding stuff, usually simple stuff in one of the above languages.",
+      "coding_category": "Java",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-12-03T20:59:28.299971Z",
+      "duration": 227,
+      "region": "us-stlouis",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dell44223-1449176139.mp4",
+        "http://usmedia2.livecoding.tv:8080/vod/dell44223-1449176139.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12-month-calendar-with-java-15/",
+      "slug": "12-month-calendar-with-java-15",
+      "user": "https://www.livecoding.tv/api/users/dell44223/",
+      "title": "12 Month Calendar with Java",
+      "description": "I am a college student with three Semesters of C++/C/Java Coding. That Said I still have a lot to learn!\r\n\r\nThe Stream:\r\nMe coding stuff, usually simple stuff in one of the above languages.",
+      "coding_category": "Java",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-12-04T14:52:01.294396Z",
+      "duration": 0,
+      "region": "us-stlouis",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dell44223-1449240719.mp4",
+        "http://usmedia2.livecoding.tv:8080/vod/dell44223-1449240719.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12-month-calendar-with-java-16/",
+      "slug": "12-month-calendar-with-java-16",
+      "user": "https://www.livecoding.tv/api/users/dell44223/",
+      "title": "12 Month Calendar with Java",
+      "description": "I am a college student with three Semesters of C++/C/Java Coding. That Said I still have a lot to learn!\r\n\r\nThe Stream:\r\nMe coding stuff, usually simple stuff in one of the above languages.",
+      "coding_category": "Java",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-12-04T14:54:09.366279Z",
+      "duration": 0,
+      "region": "us-stlouis",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dell44223-1449240847.mp4",
+        "http://usmedia2.livecoding.tv:8080/vod/dell44223-1449240847.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12-month-calendar-with-java-17/",
+      "slug": "12-month-calendar-with-java-17",
+      "user": "https://www.livecoding.tv/api/users/dell44223/",
+      "title": "12 Month Calendar with Java",
+      "description": "I am a college student with three Semesters of C++/C/Java Coding. That Said I still have a lot to learn!\r\n\r\nThe Stream:\r\nMe coding stuff, usually simple stuff in one of the above languages.",
+      "coding_category": "Java",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-12-04T14:58:24.834854Z",
+      "duration": 155,
+      "region": "us-stlouis",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dell44223-1449240946.mp4",
+        "http://usmedia2.livecoding.tv:8080/vod/dell44223-1449240946.mp4"
+      ]
+    },
+    {
+      "url": "https://www.livecoding.tv/api/videos/12-month-calendar-with-java-18/",
+      "slug": "12-month-calendar-with-java-18",
+      "user": "https://www.livecoding.tv/api/users/dell44223/",
+      "title": "12 Month Calendar with Java",
+      "description": "I am a college student with three Semesters of C++/C/Java Coding. That Said I still have a lot to learn!\r\n\r\nThe Stream:\r\nMe coding stuff, usually simple stuff in one of the above languages.",
+      "coding_category": "Java",
+      "difficulty": "beginner",
+      "language": "English",
+      "product_type": "other",
+      "creation_time": "2015-12-04T15:07:09.501266Z",
+      "duration": 500,
+      "region": "us-stlouis",
+      "viewers_overall": 0,
+      "viewing_urls": [
+        "rtmp://usmedia2.livecoding.tv:1935/vod/dell44223-1449241114.mp4",
+        "http://usmedia2.livecoding.tv:8080/vod/dell44223-1449241114.mp4"
+      ]
+    }
+  ]
+}

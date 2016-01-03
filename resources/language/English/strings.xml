@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <strings>
-	<!-- main menu -->
-	<string id="10001">Livestreams</string>
-	<string id="10002">Videos</string>
-	<string id="10003">Programming languages</string>
-	<string id="10009">Settings</string>
+    <!-- main menu -->
+    <string id="30010">Livestreams</string>
+    <string id="30011">Videos</string>
+    <string id="30019">Settings</string>
+
+    <!-- videos sub menu -->
+    <string id="30030">Programming languages</string>
+    <string id="30031">Broadcasters</string>
+
+    <!-- settings -->
+    <string id="30090">Max. entries per page</string>
 </strings>

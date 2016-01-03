@@ -1,0 +1,43 @@
+{
+  "count": 9,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Arabic",
+      "url": "https://www.livecoding.tv/api/languages/Arabic/"
+    },
+    {
+      "name": "English",
+      "url": "https://www.livecoding.tv/api/languages/English/"
+    },
+    {
+      "name": "French",
+      "url": "https://www.livecoding.tv/api/languages/French/"
+    },
+    {
+      "name": "German",
+      "url": "https://www.livecoding.tv/api/languages/German/"
+    },
+    {
+      "name": "Japanese",
+      "url": "https://www.livecoding.tv/api/languages/Japanese/"
+    },
+    {
+      "name": "Mandarin",
+      "url": "https://www.livecoding.tv/api/languages/Mandarin/"
+    },
+    {
+      "name": "Portuguese",
+      "url": "https://www.livecoding.tv/api/languages/Portuguese/"
+    },
+    {
+      "name": "Russian",
+      "url": "https://www.livecoding.tv/api/languages/Russian/"
+    },
+    {
+      "name": "Spanish",
+      "url": "https://www.livecoding.tv/api/languages/Spanish/"
+    }
+  ]
+}

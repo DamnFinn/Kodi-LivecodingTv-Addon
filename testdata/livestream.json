@@ -1,0 +1,17 @@
+{
+  "url": "https://www.livecoding.tv/api/livestreams/lyinch/",
+  "user": "https://www.livecoding.tv/api/users/lyinch/",
+  "user__slug": "lyinch",
+  "title": "Learning C++ with Programming Challenges",
+  "description": "I'm learning C++ with programming Challenges from the LIO - Luxembourgish Informatics Olympiad (yes, that is a thing). I'm a beginner in C++ and in competitive coding so feel free to help me out. If you have any questions, don't hesitate to ask them.\r\n\r\nIf you want to learn more about competitive coding, check out:\r\nhttps://www.topcoder.com/\r\nhttps://projecteuler.net/\r\nhttps://uva.onlinejudge.org/\r\nhttps://icpc.baylor.edu/\r\nhttps://www.codechef.com/\r\n...\r\n\r\nOr those books:\r\nProgramming Challenges - The Programming Contest Training Manual\r\nCompetitive Programming 3\r\n\r\nI speak English, German & French so feel free to write in any of those languages!",
+  "coding_category": "C++",
+  "difficulty": "beginner",
+  "language": "English",
+  "tags": "c++ competive programming ",
+  "is_live": true,
+  "viewers_live": 3,
+  "viewing_urls": [
+    "rtmp://eumedia3.livecoding.tv:1935/livecodingtv/lyinch",
+    "http://eumedia3.livecoding.tv:8080/hls/lyinch/index.m3u8"
+  ]
+}
