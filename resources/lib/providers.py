@@ -26,26 +26,43 @@ class Logger:
 __addon = xbmcaddon.Addon()
 
 
-def request_json(uri):
+def get_mainmenu():
+    # livestreams entry
+    livestreams_info = LivestreamDataProvider()
+    livestreams_info.get(1, 8)
+    livestreams_label = __addon.getLocalizedString(30010)
+    livestreams_item = models.MenuItem(livestreams_label, \
+        'livestreams', livestreams_info.total, \
+        livestreams_info.thumbnail)
+    # videos entry
+    videos_info = VideoDataProvider()
+    videos_info.get(1, 8)
+    videos_label = __addon.getLocalizedString(30011)
+    videos_item = models.MenuItem(videos_label, 'videos', \
+        videos_info.total, videos_info.thumbnail)
+    # settings entry
+    settings_label = __addon.getLocalizedString(30019)
+    settings_item = models.MenuItem(settings_label, 'settings')
+    # set all created entries to menu_items array
+    menu_items = [livestreams_item, videos_item, settings_item]
+    return menu_items
+
+
+def _request_json(uri):
     # authentification with oauth2 needed for that currently:
     #data = requests.get(uri)
     #data_json = data.json()
     log = Logger(__name__)
     addon_path = __addon.getAddonInfo('path')
     data_path = '{p}/testdata/{f}.json'.format(p=addon_path, f=uri)
-    log.debug('Requesting document from {p}'.format(p=data_path))
+    log.debug('Requesting document from {p}' \
+        .format(p=data_path))
     fp = open(data_path, mode='r')
     data_json = json.load(fp)
     fp.close()
     log.debug('Answer to request from {path}: {answer}' \
         .format(path=data_path, answer=data_json))
     return data_json
-
-
-class MainMenuProvider:
-    def __init__(self):
-        # TODO
-        pass
 
 
 class StreamDataProvider:
@@ -56,7 +73,7 @@ class StreamDataProvider:
 
     def get(self, stream_type, limit, offset):
         # TODO: request Livecoding's API with limit and offset
-        streams_json = request_json(stream_type)
+        streams_json = _request_json(stream_type)
         self.total = int(streams_json['count'])
 
         # range() - workaround for not requesting Livecoding's API
@@ -85,10 +102,6 @@ class LivestreamDataProvider(StreamDataProvider):
         lss = StreamDataProvider.get(self, 'livestreams', limit, offset)
         return lss
 
-    def getInformation(self):
-        self.get(1, 8)
-        return self
-
 
 class VideoDataProvider(StreamDataProvider):
     def __init__(self):
@@ -99,7 +112,3 @@ class VideoDataProvider(StreamDataProvider):
         vs = StreamDataProvider.get(self, 'videos', limit, offset)
         vs = sorted(vs, key=lambda v: v.creation_date, reverse=True)
         return vs
-
-    def getInformation(self):
-        self.get(1, 8)
-        return self

@@ -13,13 +13,7 @@ __addon = xbmcaddon.Addon()
 __addon_shortname = 'LCTV'
 
 __log = providers.Logger(__name__)
-
-__mainmenu = [
-        [30010, 'livestreams', providers. \
-            LivestreamDataProvider().getInformation()],
-        [30011, 'videos', providers.VideoDataProvider().getInformation()]
-        #,[30019, 'settings']
-    ]
+__mainmenu = providers.get_mainmenu()
 
 __action = 'action'
 __video = 'video'
@@ -34,7 +28,7 @@ def get_routing_uri(params):
             uri_params = '{t}&'.format(t=uri_params)
         uri_params = '{t}{n}={v}' \
             .format(t=uri_params, n=param[0], v=param[1])
-    requested_routing_uri = '%s%s' % (__addon_uri, uri_params)
+    requested_routing_uri = ''.join([__addon_uri, uri_params])
     # logging
     message = 'Requested routing uri: {u}'.format(u=requested_routing_uri)
     __log.debug(message)
@@ -50,14 +44,13 @@ def show_notification_error(message):
 def list_mainmenu():
     listing = []
     for menu_item in __mainmenu:
-        menu_item_name = __addon.getLocalizedString(menu_item[0])
         # create a list item with a text label and a thumbnail image
-        if len(menu_item) == 3:
-            list_item = xbmcgui.ListItem(label=menu_item_name, \
-                thumbnailImage=menu_item[2].thumbnail)
+        if len(menu_item.thumbnail) > 0:
+            list_item = xbmcgui.ListItem(label=menu_item.label, \
+                thumbnailImage=menu_item.thumbnail)
         else:
-            list_item = xbmcgui.ListItem(label=menu_item_name)
-        url = get_routing_uri([[__action, menu_item[1]]])
+            list_item = xbmcgui.ListItem(label=menu_item.label)
+        url = get_routing_uri([[__action, menu_item.routing_action]])
         is_folder = True
         # add our item to the listing as a 3-element tuple
         listing.append((url, list_item, is_folder))
@@ -81,7 +74,7 @@ def list_livestreams():
         list_item.setArt({'landscape': livestream.thumbnail})
         list_item.setProperty('IsPlayable', 'true')
         # create a URL for the plugin recursive callback
-        uri = get_routing_uri([[__action, __mainmenu[0][1]], \
+        uri = get_routing_uri([[__action, __mainmenu[0].routing_action], \
             [__video, livestream.viewing_url]])
         # add the list item to a virtual Kodi folder
         is_folder = False
@@ -111,7 +104,7 @@ def list_videos():
         list_item.setArt({'landscape': video.thumbnail})
         list_item.setProperty('IsPlayable', 'true')
         # create a URL for the plugin recursive callback
-        uri = get_routing_uri([[__action, __mainmenu[0][1]], \
+        uri = get_routing_uri([[__action, __mainmenu[1].routing_action], \
             [__video, video.viewing_url]])
         # add the list item to a virtual Kodi folder
         is_folder = False
@@ -141,6 +134,10 @@ def watch_video(url):
     xbmcplugin.setResolvedUrl(__addon_handle, True, listitem=play_item)
 
 
+def show_settings():
+    __addon.openSettings()
+
+
 def router(paramstring):
     """
     Router function that calls other functions depending on the provided
@@ -155,10 +152,12 @@ def router(paramstring):
     if params:
         if __video in params:
             watch_video(params[__video])
-        elif params[__action] == __mainmenu[0][1]:
+        elif params[__action] == __mainmenu[0].routing_action:
             list_livestreams()
-        elif params[__action] == __mainmenu[1][1]:
+        elif params[__action] == __mainmenu[1].routing_action:
             list_videos()
+        elif params[__action] == __mainmenu[2].routing_action:
+            show_settings()
     else:
         # default, without any parameters
         list_mainmenu()
