@@ -68,7 +68,7 @@ def list_mainmenu():
 
 
 def list_livestreams():
-    limit = __addon.getSetting('max_entries')
+    limit = int(__addon.getSetting('max_entries'))
     listing = []
     for livestream in providers.LivestreamDataProvider().get(limit):
         # create a list item with a text label and a thumbnail image
@@ -98,9 +98,7 @@ def list_livestreams():
 
 
 def list_videos():
-    # TODO: fix UnicodeEncodeError -> video.slug...
-    #limit = __addon.getSetting('max_entries')
-    limit = 10
+    limit = int(__addon.getSetting('max_entries'))
     listing = []
     for video in providers.VideoDataProvider().get(limit):
         # create a list item with a text label and a thumbnail image

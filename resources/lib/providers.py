@@ -34,7 +34,7 @@ def request_json(uri):
     addon_path = __addon.getAddonInfo('path')
     data_path = '{p}/testdata/{f}.json'.format(p=addon_path, f=uri)
     log.debug('Requesting document from {p}'.format(p=data_path))
-    fp = open(data_path, 'r')
+    fp = open(data_path, mode='r')
     data_json = json.load(fp)
     fp.close()
     log.debug('Answer to request from {path}: {answer}' \
@@ -47,75 +47,59 @@ class MainMenuProvider:
         # TODO
         pass
 
-class LivestreamDataProvider:
+
+class StreamDataProvider:
     def __init__(self):
         self.__log = Logger(__name__)
         self.thumbnail = ''
         self.total = 0
 
-    def get(self, limit = 20, offset = 0):
+    def get(self, stream_type, limit, offset):
         # TODO: request Livecoding's API with limit and offset
-        livestreams = []
-        livestreams_json = request_json('livestreams')
-        self.total = int(livestreams_json['count'])
-        index = -1
-        for livestream_json in livestreams_json['results']:
-            # workaround for not requesting Livecoding's API
-            index += 1
-            if index < offset:
-                continue
-            livestream = models.Livestream(livestream_json)
-            if len(livestreams) == 0:
-                self.thumbnail = livestream.thumbnail
-            livestreams.append(livestream)
-            # workaround for not requesting Livecoding's API
-            if len(livestreams) >= limit:
-                break
-        if len(livestreams) == 0 and limit != 0:
-            message = '{num} livestreams returned while limit={limit}, ' \
-                'offset={offset}' \
-                .format(num=len(livestreams), limit=limit, offset=offset)
-            self.__log.debug(message)
-        return livestreams
+        streams_json = request_json(stream_type)
+        self.total = int(streams_json['count'])
+
+        # range() - workaround for not requesting Livecoding's API
+        streams = []
+        for stream_json in streams_json['results'][offset:(offset+limit)]:
+            if stream_type == 'livestreams':
+                stream = models.Livestream(stream_json)
+            elif stream_type == 'videos':
+                stream = models.Video(stream_json)
+            streams.append(stream)
+
+        if len(streams) > 0:
+            self.thumbnail = streams[int(len(streams)/2)].thumbnail
+        message = '{num} {stream_type} returned while limit={limit}, ' \
+            'offset={offset}'.format(num=len(streams), \
+            stream_type=stream_type, limit=limit, offset=offset)
+        self.__log.debug(message)
+        return streams
+
+
+class LivestreamDataProvider(StreamDataProvider):
+    def __init__(self):
+        StreamDataProvider.__init__(self)
+
+    def get(self, limit = 20, offset = 0):
+        lss = StreamDataProvider.get(self, 'livestreams', limit, offset)
+        return lss
 
     def getInformation(self):
-        self.get(1)
+        self.get(1, 8)
         return self
 
 
-class VideoDataProvider:
+class VideoDataProvider(StreamDataProvider):
     def __init__(self):
-        self.__log = Logger(__name__)
-        self.thumbnail = ''
-        self.total = 0
+        StreamDataProvider.__init__(self)
 
     def get(self, limit = 20, offset = 0):
-        # TODO: request Livecoding's API with limit and offset
         # TODO: should be dependend on coding_category / broadcaster
-        videos = []
-        videos_json = request_json('videos')
-        self.total = int(videos_json['count'])
-        index = -1
-        for video_json in videos_json['results']:
-            # workaround for not requesting Livecoding's API
-            index += 1
-            if index < offset:
-                continue
-            video = models.Video(video_json)
-            if len(videos) == 0:
-                self.thumbnail = video.thumbnail
-            videos.append(video)
-            # workaround for not requesting Livecoding's API
-            if len(videos) >= limit:
-                break
-        if len(videos) == 0 and limit != 0:
-            message = '{num} videos returned while limit={limit}, ' \
-                'offset={offset}' \
-                .format(num=len(videos), limit=limit, offset=offset)
-            self.__log.debug(message)
-        videos = sorted(videos, key=lambda video: video.creation_date, reverse=True)
-        return videos
+        vs = StreamDataProvider.get(self, 'videos', limit, offset)
+        vs = sorted(vs, key=lambda v: v.creation_date, reverse=True)
+        return vs
 
     def getInformation(self):
-        self.get(1)
+        self.get(1, 8)
         return self
