@@ -44,12 +44,9 @@ def show_notification_error(message):
 def list_mainmenu():
     listing = []
     for menu_item in __mainmenu:
-        # create a list item with a text label and a thumbnail image
+        list_item = xbmcgui.ListItem(label=menu_item.label)
         if len(menu_item.thumbnail) > 0:
-            list_item = xbmcgui.ListItem(label=menu_item.label, \
-                thumbnailImage=menu_item.thumbnail)
-        else:
-            list_item = xbmcgui.ListItem(label=menu_item.label)
+            list_item.setThumbnailImage(menu_item.thumbnail)
         url = get_routing_uri([[__action, menu_item.routing_action]])
         is_folder = True
         # add our item to the listing as a 3-element tuple
@@ -67,12 +64,17 @@ def list_livestreams():
         # create a list item with a text label and a thumbnail image
         list_item = xbmcgui.ListItem(label=livestream.display_title, \
             thumbnailImage=livestream.thumbnail)
-        list_item.setProperty('fanart_image', livestream.thumbnail)
-        # set additional info for the list item
-        list_item.setInfo('video', {'title': livestream.display_title, \
-            'genre': livestream.coding_category})
         list_item.setArt({'landscape': livestream.thumbnail})
+        list_item.setProperty('fanart_image', livestream.thumbnail)
         list_item.setProperty('IsPlayable', 'true')
+        # set additional info for the list item
+        list_item.setInfo('video', { \
+            'artist': [livestream.user_name], \
+            'genre': livestream.coding_category, \
+            'originaltitle': livestream.title, \
+            'playcount': livestream.viewers, \
+            'plot': livestream.description, \
+            'title': livestream.display_title})
         # create a URL for the plugin recursive callback
         uri = get_routing_uri([[__action, __mainmenu[0].routing_action], \
             [__video, livestream.viewing_url]])
@@ -97,12 +99,28 @@ def list_videos():
         # create a list item with a text label and a thumbnail image
         list_item = xbmcgui.ListItem(label=video.display_title, \
             thumbnailImage=video.thumbnail)
-        list_item.setProperty('fanart_image', video.thumbnail)
-        # set additional info for the list item
-        list_item.setInfo('video', {'title': video.display_title, \
-            'genre': video.coding_category})
         list_item.setArt({'landscape': video.thumbnail})
+        list_item.setProperty('fanart_image', video.thumbnail)
         list_item.setProperty('IsPlayable', 'true')
+        if len(video.coding_category) > 0 and len(video.product_type) > 0:
+            genre = '{category}, {type}'.format( \
+                category=video.coding_category, type=video.product_type)
+        elif len(video.product_type) > 0:
+            genre = video.product_type
+        else:
+            genre = video.coding_category
+        # set additional info for the list item
+        list_item.setInfo('video', { \
+            'aired': video.creation_date, \
+            'artist': [video.user_name], \
+            'duration': video.duration, \
+            'genre': genre, \
+            'originaltitle': video.title, \
+            'playcount': video.viewers, \
+            'plot': video.description, \
+            'premiered': video.creation_date, \
+            'title': video.display_title, \
+            'year': video.creation_year})
         # create a URL for the plugin recursive callback
         uri = get_routing_uri([[__action, __mainmenu[1].routing_action], \
             [__video, video.viewing_url]])
