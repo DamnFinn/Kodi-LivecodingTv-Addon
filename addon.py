@@ -39,7 +39,7 @@ def convert_MenuItem_to_ListItem_tuple(menu_item):
     list_item = xbmcgui.ListItem(label=menu_item.label)
     if len(menu_item.thumbnail) > 0:
         list_item.setThumbnailImage(menu_item.thumbnail)
-    url = get_routing_uri(__addon_uri, [[__action, menu_item.routing_action]])
+    url = get_routing_uri([[__action, menu_item.routing_action]])
     is_folder = True
     list_item_tuple = (url, list_item, is_folder)
     return list_item_tuple
