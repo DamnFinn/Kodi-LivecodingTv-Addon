@@ -5,9 +5,15 @@
     <string id="30011">Videos</string>
     <string id="30019">Settings</string>
 
+    <!-- livestreams sub menu -->
+    <string id="30028">Search for livestreams</string>
+    <string id="30029">Next page with livestreams...</string>
+
     <!-- videos sub menu -->
     <string id="30030">Programming languages</string>
     <string id="30031">Broadcasters</string>
+    <string id="30032">Search for videos</string>
+    <string id="30039">Next page with videos...</string>
 
     <!-- settings -->
     <string id="30090">Max. entries per page</string>

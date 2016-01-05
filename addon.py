@@ -13,10 +13,14 @@ __addon = xbmcaddon.Addon()
 __addon_shortname = 'LCTV'
 
 __log = providers.Logger(__name__)
+
 __mainmenu = providers.get_mainmenu()
+__livestream_provider = providers.LivestreamDataProvider()
+__video_provider = providers.VideoDataProvider()
 
 __action = 'action'
 __video = 'video'
+__offset = 'offset'
 
 
 def get_routing_uri(params):
@@ -35,18 +39,26 @@ def get_routing_uri(params):
     return requested_routing_uri
 
 
+def get_next_page_list_item(label_resource_id, action_value, start_index):
+    label = __addon.getLocalizedString(label_resource_id)
+    list_item = xbmcgui.ListItem(label=label)
+    routing_uri = get_routing_uri([[__action, action_value], \
+        [__offset, start_index]])
+    list_item_tuple = (routing_uri, list_item, True)
+    return list_item_tuple
+
+
 def convert_MenuItem_to_ListItem_tuple(menu_item):
     list_item = xbmcgui.ListItem(label=menu_item.label)
     if len(menu_item.thumbnail) > 0:
         list_item.setThumbnailImage(menu_item.thumbnail)
-    url = get_routing_uri([[__action, menu_item.routing_action]])
-    is_folder = True
-    list_item_tuple = (url, list_item, is_folder)
+    routing_uri = get_routing_uri([[__action, menu_item.routing_action]])
+    # create a 3-element tuple containing the list item
+    list_item_tuple = (routing_uri, list_item, True, menu_item.elements)
     return list_item_tuple
 
 
 def convert_Livestream_to_ListItem_tuple(livestream):
-    # create a list item with a text label and a thumbnail image
     list_item = xbmcgui.ListItem(label=livestream.display_title, \
         thumbnailImage=livestream.thumbnail)
     list_item.setArt({'landscape': livestream.thumbnail})
@@ -61,17 +73,14 @@ def convert_Livestream_to_ListItem_tuple(livestream):
         'plot': livestream.description, \
         'title': livestream.display_title})
     # create a URL for the plugin recursive callback
-    uri = get_routing_uri([[__action, __mainmenu[0].routing_action], \
+    routing_uri = get_routing_uri([[__action, __mainmenu[0].routing_action], \
         [__video, livestream.viewing_url]])
-    # add the list item to a virtual Kodi folder
-    is_folder = False
-    # add our item to the listing as a 3-element tuple
-    list_item_tuple = (uri, list_item, is_folder)
+    # create a 3-element tuple containing the list item
+    list_item_tuple = (routing_uri, list_item, True)
     return list_item_tuple
 
 
 def convert_Video_to_ListItem_tuple(video):
-    # create a list item with a text label and a thumbnail image
     list_item = xbmcgui.ListItem(label=video.display_title, \
         thumbnailImage=video.thumbnail)
     list_item.setArt({'landscape': video.thumbnail})
@@ -97,12 +106,10 @@ def convert_Video_to_ListItem_tuple(video):
         'title': video.display_title, \
         'year': video.creation_year})
     # create a URL for the plugin recursive callback
-    uri = get_routing_uri([[__action, __mainmenu[1].routing_action], \
+    routing_uri = get_routing_uri([[__action, __mainmenu[1].routing_action], \
         [__video, video.viewing_url]])
-    # add the list item to a virtual Kodi folder
-    is_folder = False
-    # add our item to the listing as a 3-element tuple.
-    list_item_tuple = (uri, list_item, is_folder)
+    # create a 3-element tuple containing the list item
+    list_item_tuple = (routing_uri, list_item, True)
     return list_item_tuple
 
 
@@ -129,22 +136,32 @@ def list_mainmenu():
     add_listing_to_addon(listing)
 
 
-def list_livestreams():
+def list_livestreams(offset):
     limit = int(__addon.getSetting('max_entries'))
     listing = []
-    for livestream in providers.LivestreamDataProvider().get(limit):
+    for livestream in __livestream_provider.get(limit, offset):
         list_item_tuple = convert_Livestream_to_ListItem_tuple(livestream)
         listing.append(list_item_tuple)
+    current_last_item_index = offset + len(listing)
+    if current_last_item_index < __livestream_provider.total:
+        list_item_tuple_next_page = get_next_page_list_item(30029, \
+            __mainmenu[0].routing_action, current_last_item_index)
+        listing.append(list_item_tuple_next_page)
     # add our listing to Kodi
     add_listing_to_addon(listing, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 
 
-def list_videos():
+def list_videos(offset):
     limit = int(__addon.getSetting('max_entries'))
     listing = []
-    for video in providers.VideoDataProvider().get(limit):
+    for video in __video_provider.get(limit, offset):
         list_item_tuple = convert_Video_to_ListItem_tuple(video)
         listing.append(list_item_tuple)
+    current_last_item_index = offset + len(listing)
+    if current_last_item_index < __video_provider.total:
+        list_item_tuple_next_page = get_next_page_list_item(30039, \
+            __mainmenu[1].routing_action, current_last_item_index)
+        listing.append(list_item_tuple_next_page)
     # add our listing to Kodi
     add_listing_to_addon(listing)
 
@@ -182,9 +199,15 @@ def router(paramstring):
         if __video in params:
             watch_video(params[__video])
         elif params[__action] == __mainmenu[0].routing_action:
-            list_livestreams()
+            offset = 0
+            if __offset in params:
+                offset = int(params[__offset])
+            list_livestreams(offset)
         elif params[__action] == __mainmenu[1].routing_action:
-            list_videos()
+            offset = 0
+            if __offset in params:
+                offset = int(params[__offset])
+            list_videos(offset)
         elif params[__action] == __mainmenu[2].routing_action:
             show_settings()
     else:
