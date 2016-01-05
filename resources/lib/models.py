@@ -5,7 +5,11 @@
 
 class MenuItem:
     def __init__(self, label, routing_action, elements=-1, thumbnail=''):
-        self.label = label
+        if elements > 0:
+            self.label = '{label} [{num}]' \
+                .format(label=label, num=elements)
+        else:
+            self.label = label
         self.routing_action = routing_action
         self.elements = elements
         self.thumbnail = thumbnail
