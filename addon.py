@@ -39,6 +39,14 @@ def get_routing_uri(params):
     return requested_routing_uri
 
 
+def should_add_next_page(listing, total, limit, offset):
+    if len(listing) < limit:
+        return False
+    current_last_item_index = offset + len(listing)
+    should_add_next_page = current_last_item_index < total
+    return  should_add_next_page
+
+
 def get_next_page_list_item(label_resource_id, action_value, start_index):
     label = __addon.getLocalizedString(label_resource_id)
     list_item = xbmcgui.ListItem(label=label)
@@ -129,6 +137,7 @@ def show_notification_error(message):
 
 def list_mainmenu():
     listing = []
+    # add all mainmenu items
     for menu_item in __mainmenu:
         list_item_tuple = convert_MenuItem_to_ListItem_tuple(menu_item)
         listing.append(list_item_tuple)
@@ -139,11 +148,13 @@ def list_mainmenu():
 def list_livestreams(offset):
     limit = int(__addon.getSetting('max_entries'))
     listing = []
+    # add items with livestreams in the given range
     for livestream in __livestream_provider.get(limit, offset):
         list_item_tuple = convert_Livestream_to_ListItem_tuple(livestream)
         listing.append(list_item_tuple)
-    current_last_item_index = offset + len(listing)
-    if current_last_item_index < __livestream_provider.total:
+    # add next page item, if applicable
+    if should_add_next_page(listing, __livestream_provider.total, limit, offset):
+        current_last_item_index = offset + len(listing)
         list_item_tuple_next_page = get_next_page_list_item(30029, \
             __mainmenu[0].routing_action, current_last_item_index)
         listing.append(list_item_tuple_next_page)
@@ -154,11 +165,13 @@ def list_livestreams(offset):
 def list_videos(offset):
     limit = int(__addon.getSetting('max_entries'))
     listing = []
+    # add items with videos in the given range
     for video in __video_provider.get(limit, offset):
         list_item_tuple = convert_Video_to_ListItem_tuple(video)
         listing.append(list_item_tuple)
-    current_last_item_index = offset + len(listing)
-    if current_last_item_index < __video_provider.total:
+    # add next page item, if applicable
+    if should_add_next_page(listing, __video_provider.total, limit, offset):
+        current_last_item_index = offset + len(listing)
         list_item_tuple_next_page = get_next_page_list_item(30039, \
             __mainmenu[1].routing_action, current_last_item_index)
         listing.append(list_item_tuple_next_page)
